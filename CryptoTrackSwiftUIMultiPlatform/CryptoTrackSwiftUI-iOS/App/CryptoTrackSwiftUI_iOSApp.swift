@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct CryptoTrackSwiftUI_iOSApp: App {
+    @StateObject var launchScreenManager = LaunchScreenViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack{
+                RootView()
+                
+                if launchScreenManager.state != .completed{
+                    LaunchScreenView()
+                }
+                
+            }
+            .environmentObject(launchScreenManager)
+            
         }
     }
 }
