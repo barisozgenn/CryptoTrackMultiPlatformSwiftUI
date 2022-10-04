@@ -50,7 +50,7 @@ class CoinDetailViewModel {
         // rank stats
         let rank = cryptoCurrency.marketCapRank
         let rankStat = StatisticModel(title: "Rank",
-                                      value: "\(rank)",
+                                      value: "\(rank ?? 0)",
                                       percentageChange: nil)
         
         // volume stats

@@ -15,11 +15,16 @@ struct SortButtonViewModifier: ViewModifier {
     func body(content: Content) -> some View {
         
         content
-        .frame(width: frameWidth, alignment: .leading)
-        .padding(.leading)
-        .foregroundColor(isClicked ? .orange : .gray)
-        .fontWeight(isClicked ? .bold : .regular)
-        .font(.caption)
+            .frame(width: frameWidth, alignment: .leading)
+            .padding(.leading)
+            .foregroundColor(isClicked ? .orange : .gray)
+            .fontWeight(isClicked ? .bold : .regular)
+#if os(tvOS)
+            .font(.system(size: 14))
+#else
+            .font(.caption)
+#endif
+        
     }
 }
 
@@ -29,7 +34,7 @@ struct SortButtonViewModifier_Previews: PreviewProvider {
             Text("Name")
             Image(systemName: "arrowtriangle.up.fill")
         }.modifier(SortButtonViewModifier(frameWidth: 200, isClicked : true)
-)
+        )
     }
 }
 

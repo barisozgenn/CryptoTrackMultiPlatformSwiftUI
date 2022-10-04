@@ -15,9 +15,13 @@ class CryptoCurrenciesService {
     var dataSubscription: AnyCancellable?
     
     init() {
-      // fetchData()
+#if os(tvOS)
+        fetchData()
+#else
         fetchDataDynamic()
-       //fetchDataDynamicDetailed()
+#endif
+        
+        //fetchDataDynamicDetailed()
     }
     
     //generic dynamic usage
@@ -31,7 +35,7 @@ class CryptoCurrenciesService {
             .decode(type: [CryptoCurrency].self, decoder: JSONDecoder())
             .sink(receiveCompletion: NetworkManager.handleCompletion ,
                   receiveValue: {[weak self] (returnedResponse) in
-                self?.cryptoCurrencies = returnedResponse                
+                self?.cryptoCurrencies = returnedResponse
                 self?.dataSubscription?.cancel()
                 print("DEBUG : res API -> market")
             })
@@ -53,7 +57,7 @@ class CryptoCurrenciesService {
                 print("DEBUG : res API -> market")
             })
     }
-
+    
     //simple direct usage
     private func fetchData(){
         let urlString = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h"
@@ -89,5 +93,5 @@ class CryptoCurrenciesService {
         
         
     }
-
+    
 }

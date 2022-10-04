@@ -9,12 +9,14 @@ import SwiftUI
 
 @main
 struct CryptoTrackSwiftUI_tvOSApp: App {
+    @StateObject var marketViewModel = MarketViewModel()
     @StateObject var launchScreenManager = LaunchScreenViewModel()
     
     var body: some Scene {
         WindowGroup {
             ZStack{
                 HomeView()
+                    .environmentObject(marketViewModel)
                 
                 if launchScreenManager.state != .completed{
                     LaunchScreenView()

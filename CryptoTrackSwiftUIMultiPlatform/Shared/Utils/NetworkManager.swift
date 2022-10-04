@@ -28,27 +28,6 @@ class NetworkManager{
         return URLSession.shared.dataTaskPublisher(for: url)
             .subscribe(on: DispatchQueue.global(qos: .default))
             .tryMap({try handleResponse(output: $0, url: url)})
-            .mapError { error in
-                if let error = error as? DecodingError {
-                    var errorToReport = error.localizedDescription
-                    switch error {
-                    case .dataCorrupted(let context):
-                        let details = context.underlyingError?.localizedDescription ?? context.codingPath.map { $0.stringValue }.joined(separator: ".")
-                        errorToReport = "\(context.debugDescription) - (\(details))"
-                    case .keyNotFound(let key, let context):
-                        let details = context.underlyingError?.localizedDescription ?? context.codingPath.map { $0.stringValue }.joined(separator: ".")
-                        errorToReport = "\(context.debugDescription) (key: \(key), \(details))"
-                    case .typeMismatch(let type, let context), .valueNotFound(let type, let context):
-                        let details = context.underlyingError?.localizedDescription ?? context.codingPath.map { $0.stringValue }.joined(separator: ".")
-                        errorToReport = "\(context.debugDescription) (type: \(type), \(details))"
-                    @unknown default:
-                        break
-                    }
-                    return ResponseError.parserError(reason: errorToReport)
-                }  else {
-                    return ResponseError.badURL(url: url)
-                }
-            }
             .receive(on: DispatchQueue.main)
             .eraseToAnyPublisher()
     }

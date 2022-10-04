@@ -1,12 +1,10 @@
 {
   "images" : [
     {
-      "filename" : "tvos-logo-baris-crypto-s.jpg",
       "idiom" : "tv",
       "scale" : "1x"
     },
     {
-      "filename" : "tvos-logo-baris-crypto.jpg",
       "idiom" : "tv",
       "scale" : "2x"
     },

@@ -11,9 +11,12 @@ struct HomeView: View {
     
     @EnvironmentObject var launchScreenManager : LaunchScreenViewModel
 
+    @EnvironmentObject var marketViewModel : MarketViewModel
+    
     var body: some View {
         ZStack{
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            MarketView()
+                .environmentObject(marketViewModel)
         }
         .onAppear{
                         

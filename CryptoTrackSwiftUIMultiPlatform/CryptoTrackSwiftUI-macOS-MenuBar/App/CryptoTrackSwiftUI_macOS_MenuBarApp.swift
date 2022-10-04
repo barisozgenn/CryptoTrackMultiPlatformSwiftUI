@@ -10,16 +10,15 @@ import SwiftUI
 @main
 struct CryptoTrackSwiftUI_macOS_MenuBarApp: App {
     
-    //@StateObject var marketViewModel = MarketViewModel()
+    @StateObject var marketViewModel = MarketViewModel()
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     
     var body: some Scene {
         WindowGroup {
-            CustomLoadingIndicator()
-                .preferredColorScheme(.dark)
-           /*HomeView()
+           
+           HomeView()
                 .environmentObject(marketViewModel)
-                .preferredColorScheme(.dark)*/
+                .preferredColorScheme(.dark)
         }
         .windowStyle(.hiddenTitleBar)
     }
@@ -41,7 +40,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
             
             statusItemButton.image = NSImage(systemSymbolName: "bitcoinsign.circle.fill", accessibilityDescription: "Bitcoin")
                         
-            statusItemButton.title = (marketViewModel.cryptoCurrencies.first?.currentPrice ?? 0).toUSDCurrency()
+            statusItemButton.title = (19729.92).toUSDCurrency()
             
             statusItemButton.action = #selector(togglePopover)
         }
