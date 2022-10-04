@@ -82,7 +82,7 @@ class MarketViewModel:  ObservableObject {
     
     func sortTopMovingCryptoCurrencies(){
         if cryptoCurrencies.count > 5 {
-            let tops = cryptoCurrencies.sorted(by: {$0.priceChangePercentage24H > $1.priceChangePercentage24H})
+            let tops = cryptoCurrencies.sorted(by: {$0.priceChangePercentage24H ?? 0  > $1.priceChangePercentage24H ?? 0 })
             
             self.topCryptoCurrencies = Array(tops.prefix(5))
         }
@@ -117,20 +117,20 @@ class MarketViewModel:  ObservableObject {
             }
         case .percentage :
             if lastSortType == .percentageLow {
-                cryptoCurrencies = cryptoCurrencies.sorted(by: { $0.priceChangePercentage24H > $1.priceChangePercentage24H })
+                cryptoCurrencies = cryptoCurrencies.sorted(by: { $0.priceChangePercentage24H ?? 0  > $1.priceChangePercentage24H ?? 0  })
                 lastSortType = .percentageHigh
             }
             else {
-                cryptoCurrencies = cryptoCurrencies.sorted(by: { $0.priceChangePercentage24H < $1.priceChangePercentage24H })
+                cryptoCurrencies = cryptoCurrencies.sorted(by: { $0.priceChangePercentage24H ?? 0  < $1.priceChangePercentage24H ?? 0  })
                 lastSortType = .percentageLow
             }
         case .rank :
             if lastSortType == .rankLow {
-                cryptoCurrencies = cryptoCurrencies.sorted(by: { $0.marketCapRank > $1.marketCapRank })
+                cryptoCurrencies = cryptoCurrencies.sorted(by: { $0.marketCapRank ?? 0  > $1.marketCapRank ?? 0  })
                 lastSortType = .rankHigh
             }
             else {
-                cryptoCurrencies = cryptoCurrencies.sorted(by: { $0.marketCapRank < $1.marketCapRank })
+                cryptoCurrencies = cryptoCurrencies.sorted(by: { $0.marketCapRank ?? 0  < $1.marketCapRank ?? 0  })
                 lastSortType = .rankLow
             }
         case .volume:

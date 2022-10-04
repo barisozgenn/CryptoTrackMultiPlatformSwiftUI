@@ -77,7 +77,7 @@ class CoinDetailViewModel {
                                      percentageChange: nil)
         
         // 24H price change
-        let priceChange24h = (cryptoCurrency.priceChange24H ).toUSDCurrency()
+        let priceChange24h = (cryptoCurrency.priceChange24H ?? 0.0 ).toUSDCurrency()
         let pricePercentChange24h = cryptoCurrency.priceChangePercentage24H
         let priceChangeStat = StatisticModel(title: "24h Price Change",
                                              value: priceChange24h,

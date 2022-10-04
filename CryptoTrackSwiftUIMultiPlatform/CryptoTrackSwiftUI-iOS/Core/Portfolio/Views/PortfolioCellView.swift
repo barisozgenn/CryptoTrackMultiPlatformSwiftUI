@@ -79,10 +79,10 @@ struct PortfolioCellView: View {
                         .fontWeight(.semibold)
                         .foregroundColor(Color.theme.primaryTextColor)
                     
-                    Text(cryptoCurrency.priceChangePercentage24H.toPercentString())
+                    Text((cryptoCurrency.priceChangePercentage24H ?? 0 ).toPercentString())
                         .font(.caption)
                         .fontWeight(.semibold)
-                        .foregroundColor(cryptoCurrency.priceChangePercentage24H.toPercentColor())
+                        .foregroundColor((cryptoCurrency.priceChangePercentage24H ?? 0).toPercentColor())
                 }
                 .frame(width: 80,alignment: .trailing)
                 

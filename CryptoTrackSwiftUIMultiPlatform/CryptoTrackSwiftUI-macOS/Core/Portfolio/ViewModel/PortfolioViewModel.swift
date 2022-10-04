@@ -26,7 +26,7 @@ class PortfolioViewModel:  ObservableObject {
     
     init(){
         fetchData()
-       
+        
     }
     
     private func fetchData(){
@@ -36,7 +36,7 @@ class PortfolioViewModel:  ObservableObject {
             .debounce(for: .seconds(0.7), scheduler: DispatchQueue.main)
             .map(searchCurrencies)
             .sink{[weak self] (searchedCurrencies) in
-               
+                
                 self?.cryptoCurrencies = searchedCurrencies
             }
             .store(in: &cancellables)
@@ -59,7 +59,7 @@ class PortfolioViewModel:  ObservableObject {
                 
             }
             .store(in: &cancellables)
-
+        
     }
     
     private func searchCurrencies(text:String, searchCurrencies : [CryptoCurrency]) -> [CryptoCurrency]{
@@ -95,9 +95,9 @@ class PortfolioViewModel:  ObservableObject {
         
         let unitLowestPrice : Double = selectedCurrencyList.map {$0.unitPrice}.min() ?? 0.0
         let unitHighestPrice : Double = selectedCurrencyList.map {$0.unitPrice}.max() ?? 0.0
-
+        
         return currency.updateHolding(unitPrice: unitPrice,unitLowest: unitLowestPrice, unitHighest: unitHighestPrice, amount: totalAmount, transactionType: pEntity.transactionType ?? "b", dateCreated: pEntity.dateCreated ?? Date())
-
+        
     }
     
     

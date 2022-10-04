@@ -98,6 +98,9 @@
 		AF4C03F128EC1B5F0018283D /* CoinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03ED28EC1B5F0018283D /* CoinDetailView.swift */; };
 		AF4C03F228EC1B5F0018283D /* CoinDetailSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03EE28EC1B5F0018283D /* CoinDetailSection.swift */; };
 		AF4C03F328EC1B5F0018283D /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03EF28EC1B5F0018283D /* ChartView.swift */; };
+		AFA8A65D28EC5B450087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
+		AFA8A65E28EC5B460087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
+		AFA8A65F28EC5B460087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
 		AFC6230E28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6230D28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift */; };
 		AFC6231228EB5B6800EEBD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6231128EB5B6800EEBD12 /* Assets.xcassets */; };
 		AFC6231528EB5B6800EEBD12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6231428EB5B6800EEBD12 /* Preview Assets.xcassets */; };
@@ -231,6 +234,7 @@
 		AF4C03ED28EC1B5F0018283D /* CoinDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailView.swift; sourceTree = "<group>"; };
 		AF4C03EE28EC1B5F0018283D /* CoinDetailSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailSection.swift; sourceTree = "<group>"; };
 		AF4C03EF28EC1B5F0018283D /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCombineManager.swift; sourceTree = "<group>"; };
 		AFC6230A28EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoTrackSwiftUI-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC6230D28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_iOSApp.swift; sourceTree = "<group>"; };
 		AFC6231128EB5B6800EEBD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -797,6 +801,7 @@
 				AFC6235628EB5E6300EEBD12 /* CustomLoadingIndicator.swift */,
 				AFC6235728EB5E6300EEBD12 /* LayzNavigationView.swift */,
 				AFC6235828EB5E6300EEBD12 /* NetworkManager.swift */,
+				AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1092,6 +1097,7 @@
 				AF4C03CB28EC19200018283D /* MarketViewModel.swift in Sources */,
 				AF4C03D228EC19BD0018283D /* PortfolioDataService.swift in Sources */,
 				AF4C03CE28EC196D0018283D /* PieChartModel.swift in Sources */,
+				AFA8A65F28EC5B460087455A /* NetworkCombineManager.swift in Sources */,
 				AF4C03D328EC19BD0018283D /* ImageDownloadService.swift in Sources */,
 				AF4C03D728EC19C90018283D /* CustomLoadingIndicator.swift in Sources */,
 				AF4C03DC28EC19ED0018283D /* Color.swift in Sources */,
@@ -1148,6 +1154,7 @@
 				AFC6236328EB5EB100EEBD12 /* PortfolioDataService.swift in Sources */,
 				AF4C038728EB78B10018283D /* ChartView.swift in Sources */,
 				AFC6235D28EB5E6300EEBD12 /* NetworkManager.swift in Sources */,
+				AFA8A65D28EC5B450087455A /* NetworkCombineManager.swift in Sources */,
 				AFC6233828EB5CD100EEBD12 /* ChartData.swift in Sources */,
 				AF4C039B28EB78EB0018283D /* PortfolioView.swift in Sources */,
 				AFC6230E28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift in Sources */,
@@ -1208,6 +1215,7 @@
 				AF4C035C28EB75B60018283D /* CoinDetailSection.swift in Sources */,
 				AF4C035E28EB75C80018283D /* PortfolioViewModel.swift in Sources */,
 				AF4C036E28EB75DA0018283D /* PortfolioTableTitleView.swift in Sources */,
+				AFA8A65E28EC5B460087455A /* NetworkCombineManager.swift in Sources */,
 				AFC6235A28EB5E6300EEBD12 /* CustomLoadingIndicator.swift in Sources */,
 				AF4C035B28EB75B60018283D /* ChartView.swift in Sources */,
 				AFC6239A28EB67D700EEBD12 /* SearchBarView.swift in Sources */,

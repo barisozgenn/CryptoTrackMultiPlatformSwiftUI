@@ -36,7 +36,6 @@ class DeveloperPreview{
         currentPrice: 20086,
         marketCapRank: 100,
         marketCap: 386980503908,
-        fullyDilutedValuation: 424339427973,
         totalVolume: 38513552039,
         high24H: 20397,
         low24H: 19801.17,
@@ -48,11 +47,6 @@ class DeveloperPreview{
         totalSupply: 21000000,
         maxSupply: 21000000,
         ath: 69045,
-        athChangePercentage: -70.734,
-        athDate: "2021-11-10T14:24:11.849Z",
-        atl: 67.81,
-        atlChangePercentage: 29699.34732,
-        atlDate: "2013-07-06T00:00:00.000Z",
         lastUpdated: "2022-09-15T08:26:52.857Z",
         sparklineIn7D: SparklineIn7D(price: [
             19302.99628196813,
@@ -223,7 +217,6 @@ class DeveloperPreview{
             20072.48165582401,
             20017.664914669414,
             20045.211071435988]) ,
-        priceChangePercentage24HInCurrency: -0.8133402402824212,
         
         portfolioAmount : 1.29,
         portfolioUnitPrice : 17.789,

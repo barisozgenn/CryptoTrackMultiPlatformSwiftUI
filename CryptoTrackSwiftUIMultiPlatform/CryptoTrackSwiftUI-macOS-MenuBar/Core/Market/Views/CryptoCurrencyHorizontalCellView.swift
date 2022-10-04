@@ -37,9 +37,9 @@ struct CryptoCurrencyHorizontalCellView: View {
                     
                     
                     // coin percent change
-                    Text(cryptoCurrency.priceChangePercentage24H.toPercentString())
+                    Text((cryptoCurrency.priceChangePercentage24H ?? 0).toPercentString())
                         .font(.title2)
-                        .foregroundColor(cryptoCurrency.priceChangePercentage24H.toPercentColor())
+                        .foregroundColor((cryptoCurrency.priceChangePercentage24H ?? 0.0).toPercentColor())
                 }
                 
             }

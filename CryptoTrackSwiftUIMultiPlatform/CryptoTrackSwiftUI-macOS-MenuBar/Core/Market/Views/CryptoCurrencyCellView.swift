@@ -22,7 +22,7 @@ struct CryptoCurrencyCellView:View {
                 // market rank & image
                 HStack{
                     // market rank
-                    Text("\(cryptoCurrency.marketCapRank)")
+                    Text("\(cryptoCurrency.marketCapRank  ?? 0 )")
                         .font(.system(size: 10))
                         .fontWeight(.semibold)
                         .foregroundColor(.gray)
@@ -92,7 +92,7 @@ struct CryptoCurrencyCellView:View {
                         .font(.system(size:
                                         cryptoCurrency.currentPrice > 0.0001 ? 14 : 12)  )
                         .fontWeight(.semibold)
-                        .foregroundColor(cryptoCurrency.priceChangePercentage24H.toPercentColor())
+                        .foregroundColor((cryptoCurrency.priceChangePercentage24H ?? 0 ).toPercentColor())
                     
                     Text(cryptoCurrency.currentPrice.toUSDCurrency())
                         .font(.system(size:
@@ -105,7 +105,7 @@ struct CryptoCurrencyCellView:View {
                 
                 // 24h Change
                 VStack{
-                    Text(cryptoCurrency.priceChangePercentage24H.toPercentString())
+                    Text((cryptoCurrency.priceChangePercentage24H ?? 0 ).toPercentString())
                         .font(.system(size: 11))
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
@@ -113,7 +113,7 @@ struct CryptoCurrencyCellView:View {
                 .frame(width: 55)
                 .padding(.vertical, 11)
                 .padding(.horizontal,7)
-                .background(cryptoCurrency.priceChangePercentage24H.toPercentColor())
+                .background((cryptoCurrency.priceChangePercentage24H ?? 0 ).toPercentColor())
                 .cornerRadius(4)
                 
             }
