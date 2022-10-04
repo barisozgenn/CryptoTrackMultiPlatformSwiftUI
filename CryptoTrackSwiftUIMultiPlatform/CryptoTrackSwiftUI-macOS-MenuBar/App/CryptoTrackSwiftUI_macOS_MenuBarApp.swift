@@ -41,7 +41,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
             
             statusItemButton.image = NSImage(systemSymbolName: "bitcoinsign.circle.fill", accessibilityDescription: "Bitcoin")
                         
-            statusItemButton.title = "$19.729,92"
+            statusItemButton.title = (marketViewModel.cryptoCurrencies.first?.currentPrice ?? 0).toUSDCurrency()
             
             statusItemButton.action = #selector(togglePopover)
         }

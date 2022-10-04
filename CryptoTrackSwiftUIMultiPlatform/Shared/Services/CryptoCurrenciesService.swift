@@ -16,12 +16,12 @@ class CryptoCurrenciesService {
     
     init() {
       // fetchData()
-        fetchDataGeneric()
-       //fetchDataGenericDetailed()
+        fetchDataDynamic()
+       //fetchDataDynamicDetailed()
     }
     
-    //generic usage
-    private func fetchDataGeneric(){
+    //generic dynamic usage
+    private func fetchDataDynamic(){
         let urlString = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h"
         
         guard let url = URL(string: urlString) else {return}
@@ -37,8 +37,8 @@ class CryptoCurrenciesService {
             })
     }
     
-    //generic detailed usage
-    private func fetchDataGenericDetailed(){
+    //generic dynamic detailed usage
+    private func fetchDataDynamicDetailed(){
         let urlString = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h"
         
         guard let url = URL(string: urlString) else {return}
@@ -54,7 +54,7 @@ class CryptoCurrenciesService {
             })
     }
 
-    //single usage
+    //simple direct usage
     private func fetchData(){
         let urlString = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h"
         

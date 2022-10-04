@@ -101,6 +101,13 @@
 		AFA8A65D28EC5B450087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
 		AFA8A65E28EC5B460087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
 		AFA8A65F28EC5B460087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
+		AFA8A66728EC82460087455A /* CryptoTrackSwiftUI_tvOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A66628EC82460087455A /* CryptoTrackSwiftUI_tvOSApp.swift */; };
+		AFA8A66B28EC82470087455A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA8A66A28EC82470087455A /* Assets.xcassets */; };
+		AFA8A66E28EC82470087455A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA8A66D28EC82470087455A /* Preview Assets.xcassets */; };
+		AFA8A68128EC84620087455A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A68028EC84620087455A /* HomeView.swift */; };
+		AFA8A68328EC854A0087455A /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A68228EC854A0087455A /* LaunchScreenView.swift */; };
+		AFA8A68528EC85570087455A /* LaunchScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A68428EC85570087455A /* LaunchScreenViewModel.swift */; };
+		AFA8A68628EC86D90087455A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
 		AFC6230E28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6230D28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift */; };
 		AFC6231228EB5B6800EEBD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6231128EB5B6800EEBD12 /* Assets.xcassets */; };
 		AFC6231528EB5B6800EEBD12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6231428EB5B6800EEBD12 /* Preview Assets.xcassets */; };
@@ -235,6 +242,13 @@
 		AF4C03EE28EC1B5F0018283D /* CoinDetailSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailSection.swift; sourceTree = "<group>"; };
 		AF4C03EF28EC1B5F0018283D /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCombineManager.swift; sourceTree = "<group>"; };
+		AFA8A66428EC82450087455A /* CryptoTrackSwiftUI-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoTrackSwiftUI-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA8A66628EC82460087455A /* CryptoTrackSwiftUI_tvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_tvOSApp.swift; sourceTree = "<group>"; };
+		AFA8A66A28EC82470087455A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFA8A66D28EC82470087455A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFA8A68028EC84620087455A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AFA8A68228EC854A0087455A /* LaunchScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		AFA8A68428EC85570087455A /* LaunchScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewModel.swift; sourceTree = "<group>"; };
 		AFC6230A28EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoTrackSwiftUI-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC6230D28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_iOSApp.swift; sourceTree = "<group>"; };
 		AFC6231128EB5B6800EEBD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -285,6 +299,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		AF4C03A228EC17D60018283D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8A66128EC82450087455A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -684,6 +705,139 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		AFA8A66528EC82460087455A /* CryptoTrackSwiftUI-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A67328EC82E70087455A /* Core */,
+				AFA8A67228EC82CF0087455A /* App */,
+				AFA8A66A28EC82470087455A /* Assets.xcassets */,
+				AFA8A66C28EC82470087455A /* Preview Content */,
+			);
+			path = "CryptoTrackSwiftUI-tvOS";
+			sourceTree = "<group>";
+		};
+		AFA8A66C28EC82470087455A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A66D28EC82470087455A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFA8A67228EC82CF0087455A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A66628EC82460087455A /* CryptoTrackSwiftUI_tvOSApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AFA8A67328EC82E70087455A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A67428EC83050087455A /* Home */,
+				AFA8A67528EC830A0087455A /* Market */,
+				AFA8A67628EC830F0087455A /* CoinDetail */,
+				AFA8A67728EC83160087455A /* Launch */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AFA8A67428EC83050087455A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A67C28EC84340087455A /* Views */,
+				AFA8A67828EC840F0087455A /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AFA8A67528EC830A0087455A /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A67D28EC843C0087455A /* Views */,
+				AFA8A67928EC84160087455A /* ViewModel */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		AFA8A67628EC830F0087455A /* CoinDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A67E28EC843F0087455A /* Views */,
+				AFA8A67A28EC84180087455A /* ViewModel */,
+			);
+			path = CoinDetail;
+			sourceTree = "<group>";
+		};
+		AFA8A67728EC83160087455A /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A67F28EC84410087455A /* Views */,
+				AFA8A67B28EC841B0087455A /* ViewModel */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		AFA8A67828EC840F0087455A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AFA8A67928EC84160087455A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AFA8A67A28EC84180087455A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AFA8A67B28EC841B0087455A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A68428EC85570087455A /* LaunchScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AFA8A67C28EC84340087455A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A68028EC84620087455A /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFA8A67D28EC843C0087455A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFA8A67E28EC843F0087455A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFA8A67F28EC84410087455A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A68228EC854A0087455A /* LaunchScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AFC622FF28EB5B1A00EEBD12 = {
 			isa = PBXGroup;
 			children = (
@@ -691,6 +845,7 @@
 				AFC6230C28EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS */,
 				AFC6231E28EB5B9700EEBD12 /* CryptoTrackSwiftUI-macOS */,
 				AF4C03A628EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar */,
+				AFA8A66528EC82460087455A /* CryptoTrackSwiftUI-tvOS */,
 				AFC6230B28EB5B6600EEBD12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -701,6 +856,7 @@
 				AFC6230A28EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS.app */,
 				AFC6231D28EB5B9700EEBD12 /* CryptoTrackSwiftUI-macOS.app */,
 				AF4C03A528EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar.app */,
+				AFA8A66428EC82450087455A /* CryptoTrackSwiftUI-tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -960,6 +1116,23 @@
 			productReference = AF4C03A528EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AFA8A66328EC82450087455A /* CryptoTrackSwiftUI-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA8A66F28EC82470087455A /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-tvOS" */;
+			buildPhases = (
+				AFA8A66028EC82450087455A /* Sources */,
+				AFA8A66128EC82450087455A /* Frameworks */,
+				AFA8A66228EC82450087455A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoTrackSwiftUI-tvOS";
+			productName = "CryptoTrackSwiftUI-tvOS";
+			productReference = AFA8A66428EC82450087455A /* CryptoTrackSwiftUI-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		AFC6230928EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFC6231628EB5B6800EEBD12 /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-iOS" */;
@@ -1007,6 +1180,9 @@
 					AF4C03A428EC17D60018283D = {
 						CreatedOnToolsVersion = 14.1;
 					};
+					AFA8A66328EC82450087455A = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					AFC6230928EB5B6600EEBD12 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -1031,6 +1207,7 @@
 				AFC6230928EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS */,
 				AFC6231C28EB5B9700EEBD12 /* CryptoTrackSwiftUI-macOS */,
 				AF4C03A428EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar */,
+				AFA8A66328EC82450087455A /* CryptoTrackSwiftUI-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -1043,6 +1220,16 @@
 				AF4C03AF28EC17D70018283D /* Preview Assets.xcassets in Resources */,
 				AF4C03E928EC1B240018283D /* Preview Assets.xcassets in Resources */,
 				AF4C03AC28EC17D70018283D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8A66228EC82450087455A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8A66E28EC82470087455A /* Preview Assets.xcassets in Resources */,
+				AFA8A68628EC86D90087455A /* Preview Assets.xcassets in Resources */,
+				AFA8A66B28EC82470087455A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1113,6 +1300,17 @@
 				AF4C03F328EC1B5F0018283D /* ChartView.swift in Sources */,
 				AF4C03DB28EC19ED0018283D /* PreviewProvider.swift in Sources */,
 				AF4C03F128EC1B5F0018283D /* CoinDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8A66028EC82450087455A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8A68128EC84620087455A /* HomeView.swift in Sources */,
+				AFA8A66728EC82460087455A /* CryptoTrackSwiftUI_tvOSApp.swift in Sources */,
+				AFA8A68528EC85570087455A /* LaunchScreenViewModel.swift in Sources */,
+				AFA8A68328EC854A0087455A /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1395,6 +1593,160 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AFA8A67028EC82470087455A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoTrackSwiftUI-tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = SHP38F3EM7;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "barisozgen.CryptoTrackSwiftUI-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		AFA8A67128EC82470087455A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoTrackSwiftUI-tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = SHP38F3EM7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "barisozgen.CryptoTrackSwiftUI-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1733,6 +2085,15 @@
 			buildConfigurations = (
 				AF4C03B128EC17D70018283D /* Debug */,
 				AF4C03B228EC17D70018283D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA8A66F28EC82470087455A /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA8A67028EC82470087455A /* Debug */,
+				AFA8A67128EC82470087455A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

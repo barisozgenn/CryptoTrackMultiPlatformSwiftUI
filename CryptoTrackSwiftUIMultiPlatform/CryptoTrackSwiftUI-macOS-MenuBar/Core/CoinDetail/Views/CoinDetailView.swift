@@ -19,6 +19,12 @@ struct CoinDetailView: View {
     
     var body: some View {
         ScrollView(showsIndicators: false) {
+            
+            HStack{
+                CloseButton()
+                Spacer()
+            }
+            
             // chart
             ChartView(viewModel: viewModel)
                 .frame(height:272)
