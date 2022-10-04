@@ -56,6 +56,48 @@
 		AF4C039C28EB78EB0018283D /* PortfolioTableTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C039428EB78EB0018283D /* PortfolioTableTitleView.swift */; };
 		AF4C039E28EB790F0018283D /* LaunchScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C039D28EB790F0018283D /* LaunchScreenViewModel.swift */; };
 		AF4C03A028EB791E0018283D /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C039F28EB791E0018283D /* LaunchScreenView.swift */; };
+		AF4C03A828EC17D60018283D /* CryptoTrackSwiftUI_macOS_MenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03A728EC17D60018283D /* CryptoTrackSwiftUI_macOS_MenuBarApp.swift */; };
+		AF4C03AC28EC17D70018283D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4C03AB28EC17D70018283D /* Assets.xcassets */; };
+		AF4C03AF28EC17D70018283D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4C03AE28EC17D70018283D /* Preview Assets.xcassets */; };
+		AF4C03BD28EC18D60018283D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03BC28EC18D60018283D /* HomeView.swift */; };
+		AF4C03C428EC19150018283D /* CryptoCurrencyHorizontalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03BE28EC19150018283D /* CryptoCurrencyHorizontalCellView.swift */; };
+		AF4C03C528EC19150018283D /* CryptoCurrencyCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03BF28EC19150018283D /* CryptoCurrencyCellView.swift */; };
+		AF4C03C628EC19150018283D /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03C028EC19150018283D /* MarketView.swift */; };
+		AF4C03C728EC19150018283D /* CryptoCurrencyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03C128EC19150018283D /* CryptoCurrencyListView.swift */; };
+		AF4C03C828EC19150018283D /* CurrenciesTableTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03C228EC19150018283D /* CurrenciesTableTitleView.swift */; };
+		AF4C03C928EC19150018283D /* CryptoCurrencyHorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03C328EC19150018283D /* CryptoCurrencyHorizontalListView.swift */; };
+		AF4C03CB28EC19200018283D /* MarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03CA28EC19200018283D /* MarketViewModel.swift */; };
+		AF4C03CC28EC196D0018283D /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6232F28EB5CD000EEBD12 /* ChartData.swift */; };
+		AF4C03CD28EC196D0018283D /* CoinDetailSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6233128EB5CD100EEBD12 /* CoinDetailSectionModel.swift */; };
+		AF4C03CE28EC196D0018283D /* PieChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6233028EB5CD000EEBD12 /* PieChartModel.swift */; };
+		AF4C03CF28EC196D0018283D /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6233528EB5CD100EEBD12 /* CryptoCurrency.swift */; };
+		AF4C03D028EC19700018283D /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFC6233328EB5CD100EEBD12 /* PortfolioContainer.xcdatamodeld */; };
+		AF4C03D128EC19AD0018283D /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6232E28EB5CD000EEBD12 /* StatisticModel.swift */; };
+		AF4C03D228EC19BD0018283D /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6236028EB5EB100EEBD12 /* PortfolioDataService.swift */; };
+		AF4C03D328EC19BD0018283D /* ImageDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6237728EB636200EEBD12 /* ImageDownloadService.swift */; };
+		AF4C03D428EC19BD0018283D /* CryptoCurrenciesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235F28EB5EB100EEBD12 /* CryptoCurrenciesService.swift */; };
+		AF4C03D528EC19C60018283D /* LayzNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235728EB5E6300EEBD12 /* LayzNavigationView.swift */; };
+		AF4C03D628EC19C60018283D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235828EB5E6300EEBD12 /* NetworkManager.swift */; };
+		AF4C03D728EC19C90018283D /* CustomLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235628EB5E6300EEBD12 /* CustomLoadingIndicator.swift */; };
+		AF4C03D828EC19CB0018283D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6237928EB63A400EEBD12 /* LocalFileManager.swift */; };
+		AF4C03D928EC19ED0018283D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234A28EB5DE800EEBD12 /* Date.swift */; };
+		AF4C03DA28EC19ED0018283D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234B28EB5DE800EEBD12 /* Double.swift */; };
+		AF4C03DB28EC19ED0018283D /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234828EB5DE800EEBD12 /* PreviewProvider.swift */; };
+		AF4C03DC28EC19ED0018283D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234728EB5DE800EEBD12 /* Color.swift */; };
+		AF4C03DD28EC19EF0018283D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6236D28EB622200EEBD12 /* View.swift */; };
+		AF4C03DF28EC1A1F0018283D /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6239428EB67D700EEBD12 /* CloseButton.swift */; };
+		AF4C03E028EC1A1F0018283D /* CurrencyImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6239328EB67D700EEBD12 /* CurrencyImageViewModel.swift */; };
+		AF4C03E128EC1A1F0018283D /* SortButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6238F28EB67D700EEBD12 /* SortButtonViewModifier.swift */; };
+		AF4C03E228EC1A1F0018283D /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6239128EB67D700EEBD12 /* PieChartView.swift */; };
+		AF4C03E328EC1A1F0018283D /* PositiveButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6238E28EB67D700EEBD12 /* PositiveButtonStyle.swift */; };
+		AF4C03E428EC1A1F0018283D /* CurrencyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6238D28EB67D700EEBD12 /* CurrencyImageView.swift */; };
+		AF4C03E528EC1A1F0018283D /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6239228EB67D700EEBD12 /* SearchBarView.swift */; };
+		AF4C03E928EC1B240018283D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
+		AF4C03EB28EC1B4E0018283D /* CoinDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03EA28EC1B4E0018283D /* CoinDetailViewModel.swift */; };
+		AF4C03F028EC1B5F0018283D /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03EC28EC1B5F0018283D /* StatisticView.swift */; };
+		AF4C03F128EC1B5F0018283D /* CoinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03ED28EC1B5F0018283D /* CoinDetailView.swift */; };
+		AF4C03F228EC1B5F0018283D /* CoinDetailSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03EE28EC1B5F0018283D /* CoinDetailSection.swift */; };
+		AF4C03F328EC1B5F0018283D /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03EF28EC1B5F0018283D /* ChartView.swift */; };
 		AFC6230E28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6230D28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift */; };
 		AFC6231228EB5B6800EEBD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6231128EB5B6800EEBD12 /* Assets.xcassets */; };
 		AFC6231528EB5B6800EEBD12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6231428EB5B6800EEBD12 /* Preview Assets.xcassets */; };
@@ -171,6 +213,24 @@
 		AF4C039428EB78EB0018283D /* PortfolioTableTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioTableTitleView.swift; sourceTree = "<group>"; };
 		AF4C039D28EB790F0018283D /* LaunchScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewModel.swift; sourceTree = "<group>"; };
 		AF4C039F28EB791E0018283D /* LaunchScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		AF4C03A528EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoTrackSwiftUI-macOS-MenuBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4C03A728EC17D60018283D /* CryptoTrackSwiftUI_macOS_MenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_macOS_MenuBarApp.swift; sourceTree = "<group>"; };
+		AF4C03AB28EC17D70018283D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4C03AE28EC17D70018283D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF4C03B028EC17D70018283D /* CryptoTrackSwiftUI_macOS_MenuBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CryptoTrackSwiftUI_macOS_MenuBar.entitlements; sourceTree = "<group>"; };
+		AF4C03BC28EC18D60018283D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF4C03BE28EC19150018283D /* CryptoCurrencyHorizontalCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyHorizontalCellView.swift; sourceTree = "<group>"; };
+		AF4C03BF28EC19150018283D /* CryptoCurrencyCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyCellView.swift; sourceTree = "<group>"; };
+		AF4C03C028EC19150018283D /* MarketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		AF4C03C128EC19150018283D /* CryptoCurrencyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyListView.swift; sourceTree = "<group>"; };
+		AF4C03C228EC19150018283D /* CurrenciesTableTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrenciesTableTitleView.swift; sourceTree = "<group>"; };
+		AF4C03C328EC19150018283D /* CryptoCurrencyHorizontalListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyHorizontalListView.swift; sourceTree = "<group>"; };
+		AF4C03CA28EC19200018283D /* MarketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketViewModel.swift; sourceTree = "<group>"; };
+		AF4C03EA28EC1B4E0018283D /* CoinDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailViewModel.swift; sourceTree = "<group>"; };
+		AF4C03EC28EC1B5F0018283D /* StatisticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		AF4C03ED28EC1B5F0018283D /* CoinDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailView.swift; sourceTree = "<group>"; };
+		AF4C03EE28EC1B5F0018283D /* CoinDetailSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailSection.swift; sourceTree = "<group>"; };
+		AF4C03EF28EC1B5F0018283D /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		AFC6230A28EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoTrackSwiftUI-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC6230D28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_iOSApp.swift; sourceTree = "<group>"; };
 		AFC6231128EB5B6800EEBD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -220,6 +280,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AF4C03A228EC17D60018283D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFC6230728EB5B6600EEBD12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,12 +560,133 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		AF4C03A628EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03B528EC18270018283D /* Core */,
+				AF4C03B428EC180B0018283D /* App */,
+				AF4C03AB28EC17D70018283D /* Assets.xcassets */,
+				AF4C03B028EC17D70018283D /* CryptoTrackSwiftUI_macOS_MenuBar.entitlements */,
+				AF4C03AD28EC17D70018283D /* Preview Content */,
+			);
+			path = "CryptoTrackSwiftUI-macOS-MenuBar";
+			sourceTree = "<group>";
+		};
+		AF4C03AD28EC17D70018283D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03AE28EC17D70018283D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF4C03B428EC180B0018283D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03A728EC17D60018283D /* CryptoTrackSwiftUI_macOS_MenuBarApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AF4C03B528EC18270018283D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03B728EC185E0018283D /* Home */,
+				AF4C03B628EC18590018283D /* Market */,
+				AF4C03E628EC1AEB0018283D /* CoinDetail */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AF4C03B628EC18590018283D /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03BB28EC18A40018283D /* ViewModels */,
+				AF4C03BA28EC189E0018283D /* Views */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		AF4C03B728EC185E0018283D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03B928EC18940018283D /* ViewModel */,
+				AF4C03B828EC188F0018283D /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AF4C03B828EC188F0018283D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03BC28EC18D60018283D /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF4C03B928EC18940018283D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF4C03BA28EC189E0018283D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03BF28EC19150018283D /* CryptoCurrencyCellView.swift */,
+				AF4C03BE28EC19150018283D /* CryptoCurrencyHorizontalCellView.swift */,
+				AF4C03C328EC19150018283D /* CryptoCurrencyHorizontalListView.swift */,
+				AF4C03C128EC19150018283D /* CryptoCurrencyListView.swift */,
+				AF4C03C228EC19150018283D /* CurrenciesTableTitleView.swift */,
+				AF4C03C028EC19150018283D /* MarketView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF4C03BB28EC18A40018283D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03CA28EC19200018283D /* MarketViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AF4C03E628EC1AEB0018283D /* CoinDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03E828EC1B090018283D /* ViewModel */,
+				AF4C03E728EC1B050018283D /* Views */,
+			);
+			path = CoinDetail;
+			sourceTree = "<group>";
+		};
+		AF4C03E728EC1B050018283D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03EF28EC1B5F0018283D /* ChartView.swift */,
+				AF4C03EE28EC1B5F0018283D /* CoinDetailSection.swift */,
+				AF4C03ED28EC1B5F0018283D /* CoinDetailView.swift */,
+				AF4C03EC28EC1B5F0018283D /* StatisticView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF4C03E828EC1B090018283D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C03EA28EC1B4E0018283D /* CoinDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		AFC622FF28EB5B1A00EEBD12 = {
 			isa = PBXGroup;
 			children = (
 				AFC6232C28EB5C6500EEBD12 /* Shared */,
 				AFC6230C28EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS */,
 				AFC6231E28EB5B9700EEBD12 /* CryptoTrackSwiftUI-macOS */,
+				AF4C03A628EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar */,
 				AFC6230B28EB5B6600EEBD12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -508,6 +696,7 @@
 			children = (
 				AFC6230A28EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS.app */,
 				AFC6231D28EB5B9700EEBD12 /* CryptoTrackSwiftUI-macOS.app */,
+				AF4C03A528EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -749,6 +938,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AF4C03A428EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4C03B328EC17D70018283D /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-macOS-MenuBar" */;
+			buildPhases = (
+				AF4C03A128EC17D60018283D /* Sources */,
+				AF4C03A228EC17D60018283D /* Frameworks */,
+				AF4C03A328EC17D60018283D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoTrackSwiftUI-macOS-MenuBar";
+			productName = "CryptoTrackSwiftUI-macOS-MenuBar";
+			productReference = AF4C03A528EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
 		AFC6230928EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFC6231628EB5B6800EEBD12 /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-iOS" */;
@@ -793,6 +999,9 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					AF4C03A428EC17D60018283D = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					AFC6230928EB5B6600EEBD12 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -816,11 +1025,22 @@
 			targets = (
 				AFC6230928EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS */,
 				AFC6231C28EB5B9700EEBD12 /* CryptoTrackSwiftUI-macOS */,
+				AF4C03A428EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AF4C03A328EC17D60018283D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C03AF28EC17D70018283D /* Preview Assets.xcassets in Resources */,
+				AF4C03E928EC1B240018283D /* Preview Assets.xcassets in Resources */,
+				AF4C03AC28EC17D70018283D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFC6230828EB5B6600EEBD12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -844,6 +1064,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AF4C03A128EC17D60018283D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C03DF28EC1A1F0018283D /* CloseButton.swift in Sources */,
+				AF4C03E428EC1A1F0018283D /* CurrencyImageView.swift in Sources */,
+				AF4C03BD28EC18D60018283D /* HomeView.swift in Sources */,
+				AF4C03C828EC19150018283D /* CurrenciesTableTitleView.swift in Sources */,
+				AF4C03C528EC19150018283D /* CryptoCurrencyCellView.swift in Sources */,
+				AF4C03D628EC19C60018283D /* NetworkManager.swift in Sources */,
+				AF4C03E128EC1A1F0018283D /* SortButtonViewModifier.swift in Sources */,
+				AF4C03CF28EC196D0018283D /* CryptoCurrency.swift in Sources */,
+				AF4C03E028EC1A1F0018283D /* CurrencyImageViewModel.swift in Sources */,
+				AF4C03C728EC19150018283D /* CryptoCurrencyListView.swift in Sources */,
+				AF4C03EB28EC1B4E0018283D /* CoinDetailViewModel.swift in Sources */,
+				AF4C03F228EC1B5F0018283D /* CoinDetailSection.swift in Sources */,
+				AF4C03C628EC19150018283D /* MarketView.swift in Sources */,
+				AF4C03E328EC1A1F0018283D /* PositiveButtonStyle.swift in Sources */,
+				AF4C03F028EC1B5F0018283D /* StatisticView.swift in Sources */,
+				AF4C03CD28EC196D0018283D /* CoinDetailSectionModel.swift in Sources */,
+				AF4C03DA28EC19ED0018283D /* Double.swift in Sources */,
+				AF4C03D128EC19AD0018283D /* StatisticModel.swift in Sources */,
+				AF4C03E228EC1A1F0018283D /* PieChartView.swift in Sources */,
+				AF4C03D028EC19700018283D /* PortfolioContainer.xcdatamodeld in Sources */,
+				AF4C03DD28EC19EF0018283D /* View.swift in Sources */,
+				AF4C03CB28EC19200018283D /* MarketViewModel.swift in Sources */,
+				AF4C03D228EC19BD0018283D /* PortfolioDataService.swift in Sources */,
+				AF4C03CE28EC196D0018283D /* PieChartModel.swift in Sources */,
+				AF4C03D328EC19BD0018283D /* ImageDownloadService.swift in Sources */,
+				AF4C03D728EC19C90018283D /* CustomLoadingIndicator.swift in Sources */,
+				AF4C03DC28EC19ED0018283D /* Color.swift in Sources */,
+				AF4C03D528EC19C60018283D /* LayzNavigationView.swift in Sources */,
+				AF4C03C928EC19150018283D /* CryptoCurrencyHorizontalListView.swift in Sources */,
+				AF4C03E528EC1A1F0018283D /* SearchBarView.swift in Sources */,
+				AF4C03C428EC19150018283D /* CryptoCurrencyHorizontalCellView.swift in Sources */,
+				AF4C03D928EC19ED0018283D /* Date.swift in Sources */,
+				AF4C03CC28EC196D0018283D /* ChartData.swift in Sources */,
+				AF4C03A828EC17D60018283D /* CryptoTrackSwiftUI_macOS_MenuBarApp.swift in Sources */,
+				AF4C03D428EC19BD0018283D /* CryptoCurrenciesService.swift in Sources */,
+				AF4C03D828EC19CB0018283D /* LocalFileManager.swift in Sources */,
+				AF4C03F328EC1B5F0018283D /* ChartView.swift in Sources */,
+				AF4C03DB28EC19ED0018283D /* PreviewProvider.swift in Sources */,
+				AF4C03F128EC1B5F0018283D /* CoinDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFC6230628EB5B6600EEBD12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -967,6 +1233,163 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		AF4C03B128EC17D70018283D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "CryptoTrackSwiftUI-macOS-MenuBar/CryptoTrackSwiftUI_macOS_MenuBar.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoTrackSwiftUI-macOS-MenuBar/Preview Content\"";
+				DEVELOPMENT_TEAM = SHP38F3EM7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "barisozgen.CryptoTrackSwiftUI-macOS-MenuBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF4C03B228EC17D70018283D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "CryptoTrackSwiftUI-macOS-MenuBar/CryptoTrackSwiftUI_macOS_MenuBar.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoTrackSwiftUI-macOS-MenuBar/Preview Content\"";
+				DEVELOPMENT_TEAM = SHP38F3EM7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "barisozgen.CryptoTrackSwiftUI-macOS-MenuBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		AFC6230428EB5B1A00EEBD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1297,6 +1720,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AF4C03B328EC17D70018283D /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-macOS-MenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4C03B128EC17D70018283D /* Debug */,
+				AF4C03B228EC17D70018283D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AFC6230328EB5B1A00EEBD12 /* Build configuration list for PBXProject "CryptoTrackSwiftUIMultiPlatform" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
