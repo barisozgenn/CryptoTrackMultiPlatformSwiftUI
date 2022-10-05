@@ -144,6 +144,20 @@
 		AFA8A6B728ECA5E20087455A /* CurrencyImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC623AA28EB687B00EEBD12 /* CurrencyImageViewModel.swift */; };
 		AFA8A6B828ECA63A0087455A /* PositiveButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6238228EB66D100EEBD12 /* PositiveButtonStyle.swift */; };
 		AFA8A6B928ECA63A0087455A /* SortButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6238328EB66D100EEBD12 /* SortButtonViewModifier.swift */; };
+		AFA8A6C328ED68510087455A /* CryptoTrackSwiftUI-watchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AFA8A6C228ED68510087455A /* CryptoTrackSwiftUI-watchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AFA8A6C828ED68510087455A /* CryptoTrackSwiftUI_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A6C728ED68510087455A /* CryptoTrackSwiftUI_watchOSApp.swift */; };
+		AFA8A6CC28ED68530087455A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA8A6CB28ED68530087455A /* Assets.xcassets */; };
+		AFA8A6CF28ED68530087455A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA8A6CE28ED68530087455A /* Preview Assets.xcassets */; };
+		AFA8A6DD28ED68FE0087455A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A6DC28ED68FE0087455A /* HomeView.swift */; };
+		AFA8A6E528ED6A170087455A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA8A6E428ED6A170087455A /* WidgetKit.framework */; };
+		AFA8A6E728ED6A170087455A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA8A6E628ED6A170087455A /* SwiftUI.framework */; };
+		AFA8A6EA28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A6E928ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetBundle.swift */; };
+		AFA8A6EC28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A6EB28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetLiveActivity.swift */; };
+		AFA8A6EE28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A6ED28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.swift */; };
+		AFA8A6F128ED6A180087455A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA8A6F028ED6A180087455A /* Assets.xcassets */; };
+		AFA8A6F328ED6A180087455A /* CryptoTrackSwiftUI_iOS_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A6EF28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.intentdefinition */; };
+		AFA8A6F428ED6A180087455A /* CryptoTrackSwiftUI_iOS_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A6EF28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.intentdefinition */; };
+		AFA8A6F728ED6A180087455A /* CryptoTrackSwiftUI-iOS-WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AFA8A6E228ED6A170087455A /* CryptoTrackSwiftUI-iOS-WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AFC6230E28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6230D28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift */; };
 		AFC6231228EB5B6800EEBD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6231128EB5B6800EEBD12 /* Assets.xcassets */; };
 		AFC6231528EB5B6800EEBD12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6231428EB5B6800EEBD12 /* Preview Assets.xcassets */; };
@@ -208,6 +222,48 @@
 		AFC623AB28EB687B00EEBD12 /* CurrencyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC623A928EB687B00EEBD12 /* CurrencyImageView.swift */; };
 		AFC623AC28EB687B00EEBD12 /* CurrencyImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC623AA28EB687B00EEBD12 /* CurrencyImageViewModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFA8A6C428ED68510087455A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC6230028EB5B1A00EEBD12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA8A6C128ED68510087455A;
+			remoteInfo = "CryptoTrackSwiftUI-watchOS Watch App";
+		};
+		AFA8A6F528ED6A180087455A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC6230028EB5B1A00EEBD12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA8A6E128ED6A170087455A;
+			remoteInfo = "CryptoTrackSwiftUI-iOS-WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFA8A6D328ED68530087455A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AFA8A6C328ED68510087455A /* CryptoTrackSwiftUI-watchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8A6FB28ED6A180087455A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AFA8A6F728ED6A180087455A /* CryptoTrackSwiftUI-iOS-WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AF4C033D28EB75450018283D /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -298,6 +354,21 @@
 		AFA8A69928ECA49D0087455A /* StatisticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		AFA8A69A28ECA49D0087455A /* CoinDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailView.swift; sourceTree = "<group>"; };
 		AFA8A6BA28ECB0DC0087455A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AFA8A6BD28ED68510087455A /* CryptoTrackSwiftUI-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoTrackSwiftUI-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA8A6C228ED68510087455A /* CryptoTrackSwiftUI-watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoTrackSwiftUI-watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA8A6C728ED68510087455A /* CryptoTrackSwiftUI_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_watchOSApp.swift; sourceTree = "<group>"; };
+		AFA8A6CB28ED68530087455A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFA8A6CE28ED68530087455A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFA8A6DC28ED68FE0087455A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AFA8A6E228ED6A170087455A /* CryptoTrackSwiftUI-iOS-WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CryptoTrackSwiftUI-iOS-WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA8A6E428ED6A170087455A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AFA8A6E628ED6A170087455A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AFA8A6E928ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_iOS_WidgetBundle.swift; sourceTree = "<group>"; };
+		AFA8A6EB28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_iOS_WidgetLiveActivity.swift; sourceTree = "<group>"; };
+		AFA8A6ED28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_iOS_Widget.swift; sourceTree = "<group>"; };
+		AFA8A6EF28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CryptoTrackSwiftUI_iOS_Widget.intentdefinition; sourceTree = "<group>"; };
+		AFA8A6F028ED6A180087455A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFA8A6F228ED6A180087455A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC6230A28EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoTrackSwiftUI-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC6230D28EB5B6600EEBD12 /* CryptoTrackSwiftUI_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_iOSApp.swift; sourceTree = "<group>"; };
 		AFC6231128EB5B6800EEBD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -358,6 +429,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8A6BF28ED68510087455A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8A6DF28ED6A170087455A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8A6E728ED6A170087455A /* SwiftUI.framework in Frameworks */,
+				AFA8A6E528ED6A170087455A /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,6 +987,87 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		AFA8A6C628ED68510087455A /* CryptoTrackSwiftUI-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A6D828ED68740087455A /* Core */,
+				AFA8A6D728ED686C0087455A /* App */,
+				AFA8A6CB28ED68530087455A /* Assets.xcassets */,
+				AFA8A6CD28ED68530087455A /* Preview Content */,
+			);
+			path = "CryptoTrackSwiftUI-watchOS";
+			sourceTree = "<group>";
+		};
+		AFA8A6CD28ED68530087455A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A6CE28ED68530087455A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFA8A6D728ED686C0087455A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A6C728ED68510087455A /* CryptoTrackSwiftUI_watchOSApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AFA8A6D828ED68740087455A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A6D928ED687D0087455A /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AFA8A6D928ED687D0087455A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A6DB28ED68890087455A /* ViewModel */,
+				AFA8A6DA28ED68840087455A /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AFA8A6DA28ED68840087455A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A6DC28ED68FE0087455A /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFA8A6DB28ED68890087455A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AFA8A6E328ED6A170087455A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A6E428ED6A170087455A /* WidgetKit.framework */,
+				AFA8A6E628ED6A170087455A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFA8A6E828ED6A170087455A /* CryptoTrackSwiftUI-iOS-Widget */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8A6E928ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetBundle.swift */,
+				AFA8A6EB28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetLiveActivity.swift */,
+				AFA8A6ED28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.swift */,
+				AFA8A6EF28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.intentdefinition */,
+				AFA8A6F028ED6A180087455A /* Assets.xcassets */,
+				AFA8A6F228ED6A180087455A /* Info.plist */,
+			);
+			path = "CryptoTrackSwiftUI-iOS-Widget";
+			sourceTree = "<group>";
+		};
 		AFC622FF28EB5B1A00EEBD12 = {
 			isa = PBXGroup;
 			children = (
@@ -908,6 +1076,9 @@
 				AFC6231E28EB5B9700EEBD12 /* CryptoTrackSwiftUI-macOS */,
 				AF4C03A628EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar */,
 				AFA8A66528EC82460087455A /* CryptoTrackSwiftUI-tvOS */,
+				AFA8A6C628ED68510087455A /* CryptoTrackSwiftUI-watchOS */,
+				AFA8A6E828ED6A170087455A /* CryptoTrackSwiftUI-iOS-Widget */,
+				AFA8A6E328ED6A170087455A /* Frameworks */,
 				AFC6230B28EB5B6600EEBD12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -919,6 +1090,9 @@
 				AFC6231D28EB5B9700EEBD12 /* CryptoTrackSwiftUI-macOS.app */,
 				AF4C03A528EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar.app */,
 				AFA8A66428EC82450087455A /* CryptoTrackSwiftUI-tvOS.app */,
+				AFA8A6BD28ED68510087455A /* CryptoTrackSwiftUI-watchOS.app */,
+				AFA8A6C228ED68510087455A /* CryptoTrackSwiftUI-watchOS Watch App.app */,
+				AFA8A6E228ED6A170087455A /* CryptoTrackSwiftUI-iOS-WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1195,6 +1369,57 @@
 			productReference = AFA8A66428EC82450087455A /* CryptoTrackSwiftUI-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AFA8A6BC28ED68510087455A /* CryptoTrackSwiftUI-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA8A6D428ED68530087455A /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-watchOS" */;
+			buildPhases = (
+				AFA8A6BB28ED68510087455A /* Resources */,
+				AFA8A6D328ED68530087455A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFA8A6C528ED68510087455A /* PBXTargetDependency */,
+			);
+			name = "CryptoTrackSwiftUI-watchOS";
+			productName = "CryptoTrackSwiftUI-watchOS";
+			productReference = AFA8A6BD28ED68510087455A /* CryptoTrackSwiftUI-watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AFA8A6C128ED68510087455A /* CryptoTrackSwiftUI-watchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA8A6D028ED68530087455A /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-watchOS Watch App" */;
+			buildPhases = (
+				AFA8A6BE28ED68510087455A /* Sources */,
+				AFA8A6BF28ED68510087455A /* Frameworks */,
+				AFA8A6C028ED68510087455A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoTrackSwiftUI-watchOS Watch App";
+			productName = "CryptoTrackSwiftUI-watchOS Watch App";
+			productReference = AFA8A6C228ED68510087455A /* CryptoTrackSwiftUI-watchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFA8A6E128ED6A170087455A /* CryptoTrackSwiftUI-iOS-WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA8A6F828ED6A180087455A /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-iOS-WidgetExtension" */;
+			buildPhases = (
+				AFA8A6DE28ED6A170087455A /* Sources */,
+				AFA8A6DF28ED6A170087455A /* Frameworks */,
+				AFA8A6E028ED6A170087455A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoTrackSwiftUI-iOS-WidgetExtension";
+			productName = "CryptoTrackSwiftUI-iOS-WidgetExtension";
+			productReference = AFA8A6E228ED6A170087455A /* CryptoTrackSwiftUI-iOS-WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		AFC6230928EB5B6600EEBD12 /* CryptoTrackSwiftUI-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFC6231628EB5B6800EEBD12 /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-iOS" */;
@@ -1202,10 +1427,12 @@
 				AFC6230628EB5B6600EEBD12 /* Sources */,
 				AFC6230728EB5B6600EEBD12 /* Frameworks */,
 				AFC6230828EB5B6600EEBD12 /* Resources */,
+				AFA8A6FB28ED6A180087455A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AFA8A6F628ED6A180087455A /* PBXTargetDependency */,
 			);
 			name = "CryptoTrackSwiftUI-iOS";
 			productName = "CryptoTrackSwiftUI-iOS";
@@ -1245,6 +1472,16 @@
 					AFA8A66328EC82450087455A = {
 						CreatedOnToolsVersion = 14.1;
 					};
+					AFA8A6BC28ED68510087455A = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+					AFA8A6C128ED68510087455A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AFA8A6E128ED6A170087455A = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					AFC6230928EB5B6600EEBD12 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -1270,6 +1507,9 @@
 				AFC6231C28EB5B9700EEBD12 /* CryptoTrackSwiftUI-macOS */,
 				AF4C03A428EC17D60018283D /* CryptoTrackSwiftUI-macOS-MenuBar */,
 				AFA8A66328EC82450087455A /* CryptoTrackSwiftUI-tvOS */,
+				AFA8A6BC28ED68510087455A /* CryptoTrackSwiftUI-watchOS */,
+				AFA8A6C128ED68510087455A /* CryptoTrackSwiftUI-watchOS Watch App */,
+				AFA8A6E128ED6A170087455A /* CryptoTrackSwiftUI-iOS-WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -1292,6 +1532,30 @@
 				AFA8A66E28EC82470087455A /* Preview Assets.xcassets in Resources */,
 				AFA8A68628EC86D90087455A /* Preview Assets.xcassets in Resources */,
 				AFA8A66B28EC82470087455A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8A6BB28ED68510087455A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8A6C028ED68510087455A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8A6CF28ED68530087455A /* Preview Assets.xcassets in Resources */,
+				AFA8A6CC28ED68530087455A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8A6E028ED6A170087455A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8A6F128ED6A180087455A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1412,6 +1676,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFA8A6BE28ED68510087455A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8A6C828ED68510087455A /* CryptoTrackSwiftUI_watchOSApp.swift in Sources */,
+				AFA8A6DD28ED68FE0087455A /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8A6DE28ED6A170087455A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8A6EA28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetBundle.swift in Sources */,
+				AFA8A6F328ED6A180087455A /* CryptoTrackSwiftUI_iOS_Widget.intentdefinition in Sources */,
+				AFA8A6EC28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetLiveActivity.swift in Sources */,
+				AFA8A6EE28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFC6230628EB5B6600EEBD12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1427,6 +1711,7 @@
 				AF4C039828EB78EB0018283D /* PortfolioSelectGridView.swift in Sources */,
 				AFC6233A28EB5CD100EEBD12 /* PieChartModel.swift in Sources */,
 				AFC6234C28EB5DE800EEBD12 /* Color.swift in Sources */,
+				AFA8A6F428ED6A180087455A /* CryptoTrackSwiftUI_iOS_Widget.intentdefinition in Sources */,
 				AFC623A528EB685D00EEBD12 /* CloseButton.swift in Sources */,
 				AFC623A228EB683B00EEBD12 /* PieChartView.swift in Sources */,
 				AFC6234228EB5CD100EEBD12 /* CryptoCurrency.swift in Sources */,
@@ -1535,6 +1820,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFA8A6C528ED68510087455A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFA8A6C128ED68510087455A /* CryptoTrackSwiftUI-watchOS Watch App */;
+			targetProxy = AFA8A6C428ED68510087455A /* PBXContainerItemProxy */;
+		};
+		AFA8A6F628ED6A180087455A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFA8A6E128ED6A170087455A /* CryptoTrackSwiftUI-iOS-WidgetExtension */;
+			targetProxy = AFA8A6F528ED6A180087455A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AF4C03B128EC17D70018283D /* Debug */ = {
@@ -1850,6 +2148,460 @@
 			};
 			name = Release;
 		};
+		AFA8A6D128ED68530087455A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoTrackSwiftUI-watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SHP38F3EM7;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CryptoTrackSwiftUI-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "barisozgen.CryptoTrackSwiftUI-watchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AFA8A6D228ED68530087455A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoTrackSwiftUI-watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SHP38F3EM7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CryptoTrackSwiftUI-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "barisozgen.CryptoTrackSwiftUI-watchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		AFA8A6D528ED68530087455A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SHP38F3EM7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CryptoTrackSwiftUI-watchOS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "barisozgen.CryptoTrackSwiftUI-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AFA8A6D628ED68530087455A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SHP38F3EM7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CryptoTrackSwiftUI-watchOS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "barisozgen.CryptoTrackSwiftUI-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFA8A6F928ED6A180087455A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SHP38F3EM7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CryptoTrackSwiftUI-iOS-Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CryptoTrackSwiftUI-iOS-Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "barisozgen.CryptoTrackSwiftUI-iOS.CryptoTrackSwiftUI-iOS-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFA8A6FA28ED6A180087455A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SHP38F3EM7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CryptoTrackSwiftUI-iOS-Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CryptoTrackSwiftUI-iOS-Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "barisozgen.CryptoTrackSwiftUI-iOS.CryptoTrackSwiftUI-iOS-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		AFC6230428EB5B1A00EEBD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1865,6 +2617,7 @@
 		AFC6231728EB5B6800EEBD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1948,6 +2701,7 @@
 		AFC6231828EB5B6800EEBD12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2194,6 +2948,33 @@
 			buildConfigurations = (
 				AFA8A67028EC82470087455A /* Debug */,
 				AFA8A67128EC82470087455A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA8A6D028ED68530087455A /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-watchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA8A6D128ED68530087455A /* Debug */,
+				AFA8A6D228ED68530087455A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA8A6D428ED68530087455A /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA8A6D528ED68530087455A /* Debug */,
+				AFA8A6D628ED68530087455A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA8A6F828ED6A180087455A /* Build configuration list for PBXNativeTarget "CryptoTrackSwiftUI-iOS-WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA8A6F928ED6A180087455A /* Debug */,
+				AFA8A6FA28ED6A180087455A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
