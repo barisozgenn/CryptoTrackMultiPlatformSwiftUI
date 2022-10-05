@@ -30,8 +30,13 @@ struct SearchBarView: View {
                             searchText.isEmpty ?
                             0 : 0.6)
                         .onTapGesture {
+                            #if os(watchOS)
+                            
+                            searchText = ""
+                            #else
                             UIApplication.shared.endEditing()
                             searchText = ""
+                            #endif
                         }
                     ,alignment: .trailing
                 )
