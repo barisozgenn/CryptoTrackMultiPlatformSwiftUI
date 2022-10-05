@@ -9,49 +9,98 @@ import ActivityKit
 import WidgetKit
 import SwiftUI
 
-struct CryptoTrackSwiftUI_iOS_WidgetAttributes: ActivityAttributes {
-    public struct ContentState: Codable, Hashable {
-        // Dynamic stateful properties about your activity go here!
-        var value: Int
-    }
 
-    // Fixed non-changing properties about your activity go here!
-    var name: String
-}
 
 struct CryptoTrackSwiftUI_iOS_WidgetLiveActivity: Widget {
+    
+    let imageName : String = "bitcoinsign.circle.fill"
+    let price : String = "$20.297,92"
+    let percentage : String = "+%7.29"
+    
     var body: some WidgetConfiguration {
-        ActivityConfiguration(for: CryptoTrackSwiftUI_iOS_WidgetAttributes.self) { context in
+        ActivityConfiguration(for: ActivityAttributesDynamicIsland.self) { context in
             // Lock screen/banner UI goes here
-            VStack {
-                Text("Hello")
-            }
-            .activityBackgroundTint(Color.cyan)
-            .activitySystemActionForegroundColor(Color.black)
+            // height maximum : 220px
+            
+            // btc
+            contentView
+            .activityBackgroundTint(Color.purple)
+            .activitySystemActionForegroundColor(Color.blue)
             
         } dynamicIsland: { context in
             DynamicIsland {
                 // Expanded UI goes here.  Compose the expanded UI through
                 // various regions, like leading/trailing/center/bottom
+              
+                
                 DynamicIslandExpandedRegion(.leading) {
-                    Text("Leading")
+                    
                 }
                 DynamicIslandExpandedRegion(.trailing) {
-                    Text("Trailing")
                 }
                 DynamicIslandExpandedRegion(.bottom) {
-                    Text("Bottom")
+                    contentView
                     // more content
                 }
             } compactLeading: {
-                Text("L")
+                Image(systemName: imageName)
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundColor(.orange)
             } compactTrailing: {
-                Text("T")
+                Text(percentage)
+                    .font(.system(size: 10))
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.theme.currencyGreenColor)
             } minimal: {
-                Text("Min")
+                Image(systemName: imageName)
+                    .resizable()
+                    .scaledToFit()
             }
-            .widgetURL(URL(string: "http://www.apple.com"))
-            .keylineTint(Color.red)
+            .widgetURL(URL(string: "https://www.github.com/barisozgenn"))
+            .keylineTint(Color.green)
+        }
+    }
+    
+    
+    private var contentView : some View {
+        ZStack{
+            VStack{
+                HStack{
+                    VStack(alignment: .leading){
+                        Text("BTC")
+                            .font(.title3)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color(.white))
+                        
+                        Text("Bitcoin")
+                            .font(.caption)
+                            .foregroundColor(Color(.white))
+                    }
+                    
+                    
+                    Spacer()
+                    Text(price)
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.white)
+                    // 24h Change
+                    VStack{
+                        Text(percentage)
+                            .font(.system(size: 11))
+                            .fontWeight(.black)
+                            .foregroundColor(Color.theme.currencyGreenColor)
+                    }
+                    .frame(width: 55)
+                    .padding(.vertical, 11)
+                    .padding(.horizontal,3)
+                    .background(Color(.systemGray6))
+                    .cornerRadius(4)
+                }
+                
+            }
+            .padding(.horizontal)
         }
     }
 }
+

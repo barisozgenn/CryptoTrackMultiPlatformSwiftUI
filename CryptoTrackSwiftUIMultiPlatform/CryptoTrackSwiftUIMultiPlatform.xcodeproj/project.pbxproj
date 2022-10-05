@@ -221,6 +221,14 @@
 		AFC623A828EB686B00EEBD12 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC623A728EB686B00EEBD12 /* SearchBarView.swift */; };
 		AFC623AB28EB687B00EEBD12 /* CurrencyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC623A928EB687B00EEBD12 /* CurrencyImageView.swift */; };
 		AFC623AC28EB687B00EEBD12 /* CurrencyImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC623AA28EB687B00EEBD12 /* CurrencyImageViewModel.swift */; };
+		AFDE944328ED951500DC8938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
+		AFDE944428ED951700DC8938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
+		AFDE944528ED951D00DC8938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
+		AFDE944628ED953B00DC8938 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234728EB5DE800EEBD12 /* Color.swift */; };
+		AFDE944728ED953C00DC8938 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234728EB5DE800EEBD12 /* Color.swift */; };
+		AFDE944D28EDCC5600DC8938 /* ActivityAttributesDynamicIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE944C28EDCC5600DC8938 /* ActivityAttributesDynamicIsland.swift */; };
+		AFDE944E28EDCC7C00DC8938 /* ActivityAttributesDynamicIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE944C28EDCC5600DC8938 /* ActivityAttributesDynamicIsland.swift */; };
+		AFDE945028EDCCEE00DC8938 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE944F28EDCCEE00DC8938 /* RootViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -415,6 +423,8 @@
 		AFC623A728EB686B00EEBD12 /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		AFC623A928EB687B00EEBD12 /* CurrencyImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyImageView.swift; sourceTree = "<group>"; };
 		AFC623AA28EB687B00EEBD12 /* CurrencyImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyImageViewModel.swift; sourceTree = "<group>"; };
+		AFDE944C28EDCC5600DC8938 /* ActivityAttributesDynamicIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAttributesDynamicIsland.swift; sourceTree = "<group>"; };
+		AFDE944F28EDCCEE00DC8938 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -669,6 +679,7 @@
 		AF4C033628EB74750018283D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				AFDE944F28EDCCEE00DC8938 /* RootViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1194,6 +1205,7 @@
 				AFC6235728EB5E6300EEBD12 /* LayzNavigationView.swift */,
 				AFC6235828EB5E6300EEBD12 /* NetworkManager.swift */,
 				AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */,
+				AFDE944C28EDCC5600DC8938 /* ActivityAttributesDynamicIsland.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1539,6 +1551,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDE944428ED951700DC8938 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1547,6 +1560,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFA8A6CF28ED68530087455A /* Preview Assets.xcassets in Resources */,
+				AFDE944528ED951D00DC8938 /* Preview Assets.xcassets in Resources */,
 				AFA8A6CC28ED68530087455A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1555,6 +1569,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDE944328ED951500DC8938 /* Preview Assets.xcassets in Resources */,
 				AFA8A6F128ED6A180087455A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1682,6 +1697,7 @@
 			files = (
 				AFA8A6C828ED68510087455A /* CryptoTrackSwiftUI_watchOSApp.swift in Sources */,
 				AFA8A6DD28ED68FE0087455A /* HomeView.swift in Sources */,
+				AFDE944728ED953C00DC8938 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1689,9 +1705,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDE944E28EDCC7C00DC8938 /* ActivityAttributesDynamicIsland.swift in Sources */,
 				AFA8A6EA28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetBundle.swift in Sources */,
 				AFA8A6F328ED6A180087455A /* CryptoTrackSwiftUI_iOS_Widget.intentdefinition in Sources */,
 				AFA8A6EC28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetLiveActivity.swift in Sources */,
+				AFDE944628ED953B00DC8938 /* Color.swift in Sources */,
 				AFA8A6EE28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1704,6 +1722,7 @@
 				AF4C037428EB78740018283D /* MarketViewModel.swift in Sources */,
 				AF4C037E28EB78840018283D /* MarketView.swift in Sources */,
 				AFC6234028EB5CD100EEBD12 /* PortfolioContainer.xcdatamodeld in Sources */,
+				AFDE945028EDCCEE00DC8938 /* RootViewModel.swift in Sources */,
 				AFC623AC28EB687B00EEBD12 /* CurrencyImageViewModel.swift in Sources */,
 				AFC6237E28EB65A200EEBD12 /* LocalFileManager.swift in Sources */,
 				AFC6233E28EB5CD100EEBD12 /* SideMenuBar.swift in Sources */,
@@ -1720,6 +1739,7 @@
 				AFC623AB28EB687B00EEBD12 /* CurrencyImageView.swift in Sources */,
 				AF4C039528EB78EB0018283D /* PortfolioSelectCellView.swift in Sources */,
 				AFC6235428EB5DE800EEBD12 /* Double.swift in Sources */,
+				AFDE944D28EDCC5600DC8938 /* ActivityAttributesDynamicIsland.swift in Sources */,
 				AF4C037B28EB78840018283D /* CryptoCurrencyCellView.swift in Sources */,
 				AFC6237028EB622200EEBD12 /* UIApplication.swift in Sources */,
 				AFC6234E28EB5DE800EEBD12 /* PreviewProvider.swift in Sources */,
@@ -2374,6 +2394,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Utils/CryptoTrackSwiftUI-watchOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -2440,6 +2461,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Utils/CryptoTrackSwiftUI-watchOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
@@ -2673,6 +2695,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2751,6 +2774,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -11,7 +11,7 @@ struct RootView: View {
     
     @EnvironmentObject var launchScreenManager : LaunchScreenViewModel
     
-    //@StateObject private var marketViewModel = MarketViewModel()
+    @StateObject private var viewModel = RootViewModel()
     
     var body: some View {
         NavigationView{
@@ -39,6 +39,10 @@ struct RootView: View {
                         launchScreenManager.dismiss()
                     }
             }
+        }
+        .onAppear{
+            // Example For Widget Live Activity
+            viewModel.setActiviy()
         }
         
         
