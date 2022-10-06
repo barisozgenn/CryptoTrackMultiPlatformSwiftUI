@@ -24,15 +24,6 @@ struct LaunchScreenView: View {
                 logo
             }
         }
-        .onAppear{
-            
-            DispatchQueue
-                .main
-                .asyncAfter(deadline: .now() + 1.74 ) {
-                    launchScreenManager.state = .completed
-                    
-                }
-        }
         .onReceive(timer){input in
             
             switch launchScreenManager.state {
@@ -55,7 +46,7 @@ struct LaunchScreenView: View {
 
 private extension LaunchScreenView {
     var background: some View {
-        Color("AppBackgroundColor")
+        Color(.black)
             .edgesIgnoringSafeArea(.all)
     }
     

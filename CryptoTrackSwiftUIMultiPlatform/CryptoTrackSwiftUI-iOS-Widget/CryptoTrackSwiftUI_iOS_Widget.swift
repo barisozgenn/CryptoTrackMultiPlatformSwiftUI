@@ -142,7 +142,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                                 Text(percentage)
                                     .font(.system(size: 11))
                                     .fontWeight(.black)
-                                    .foregroundColor(Color.theme.currencyGreenColor)
+                                    .foregroundColor(.green)
                             }
                             .frame(width: 55)
                             .padding(.vertical, 11)
@@ -181,7 +181,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                                 Text("-%1.92")
                                     .font(.system(size: 11))
                                     .fontWeight(.black)
-                                    .foregroundColor(Color.theme.currencyRedColor)
+                                    .foregroundColor(.red)
                             }
                             .frame(width: 55)
                             .padding(.vertical, 11)
@@ -223,7 +223,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                                     Text("+%2.14")
                                         .font(.system(size: 11))
                                         .fontWeight(.black)
-                                        .foregroundColor(Color.theme.currencyGreenColor)
+                                        .foregroundColor(.green)
                                 }
                                 
                             }
@@ -260,7 +260,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                                     Text("+%0.58")
                                         .font(.system(size: 11))
                                         .fontWeight(.black)
-                                        .foregroundColor(Color.theme.currencyGreenColor)
+                                        .foregroundColor(.green)
                                 }
                                 
                             }
@@ -296,7 +296,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                                 Text("-%0.84")
                                     .font(.system(size: 11))
                                     .fontWeight(.black)
-                                    .foregroundColor(Color.theme.currencyRedColor)
+                                    .foregroundColor(.red)
                             }
                             .frame(width: 55)
                             .padding(.vertical, 11)
@@ -335,7 +335,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                                 Text("+%6.14")
                                     .font(.system(size: 11))
                                     .fontWeight(.black)
-                                    .foregroundColor(Color.theme.currencyGreenColor)
+                                    .foregroundColor(.green)
                             }
                             .frame(width: 55)
                             .padding(.vertical, 11)
@@ -378,7 +378,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                             Text(percentage)
                                 .font(.system(size: 11))
                                 .fontWeight(.black)
-                                .foregroundColor(Color.theme.currencyGreenColor)
+                                .foregroundColor(.green)
                         }
                         .frame(width: 55)
                         .padding(.vertical, 11)
@@ -430,7 +430,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                                 Text(percentage)
                                     .font(.system(size: 11))
                                     .fontWeight(.black)
-                                    .foregroundColor(Color.theme.currencyGreenColor)
+                                    .foregroundColor(.green)
                             }
                             .frame(width: 55)
                             .padding(.vertical, 11)
@@ -469,7 +469,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                                 Text("-%1.92")
                                     .font(.system(size: 11))
                                     .fontWeight(.black)
-                                    .foregroundColor(Color.theme.currencyRedColor)
+                                    .foregroundColor(.red)
                             }
                             .frame(width: 55)
                             .padding(.vertical, 11)
@@ -511,7 +511,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                                     Text("+%2.14")
                                         .font(.system(size: 11))
                                         .fontWeight(.black)
-                                        .foregroundColor(Color.theme.currencyGreenColor)
+                                        .foregroundColor(.green)
                                 }
                                 
                             }
@@ -548,7 +548,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetEntryView : View {
                                     Text("+%0.58")
                                         .font(.system(size: 11))
                                         .fontWeight(.black)
-                                        .foregroundColor(Color.theme.currencyGreenColor)
+                                        .foregroundColor(.green)
                                 }
                                 
                             }

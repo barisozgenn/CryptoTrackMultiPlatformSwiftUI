@@ -51,7 +51,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetLiveActivity: Widget {
                 Text(percentage)
                     .font(.system(size: 10))
                     .fontWeight(.bold)
-                    .foregroundColor(Color.theme.currencyGreenColor)
+                    .foregroundColor(.green)
             } minimal: {
                 Image(systemName: imageName)
                     .resizable()
@@ -89,7 +89,7 @@ struct CryptoTrackSwiftUI_iOS_WidgetLiveActivity: Widget {
                         Text(percentage)
                             .font(.system(size: 11))
                             .fontWeight(.black)
-                            .foregroundColor(Color.theme.currencyGreenColor)
+                            .foregroundColor(.green)
                     }
                     .frame(width: 55)
                     .padding(.vertical, 11)

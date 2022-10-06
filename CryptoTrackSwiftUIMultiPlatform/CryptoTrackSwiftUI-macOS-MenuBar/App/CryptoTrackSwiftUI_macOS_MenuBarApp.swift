@@ -39,8 +39,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
         if let statusItemButton = statusItem.button {
             
             statusItemButton.image = NSImage(systemSymbolName: "bitcoinsign.circle.fill", accessibilityDescription: "Bitcoin")
-                        
-            statusItemButton.title = (19729.92).toUSDCurrency()
+            
+            statusItemButton.title = (20297.92).toUSDCurrency()
             
             statusItemButton.action = #selector(togglePopover)
         }

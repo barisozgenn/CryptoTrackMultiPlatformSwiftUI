@@ -92,12 +92,15 @@
 		AF4C03E328EC1A1F0018283D /* PositiveButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6238E28EB67D700EEBD12 /* PositiveButtonStyle.swift */; };
 		AF4C03E428EC1A1F0018283D /* CurrencyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6238D28EB67D700EEBD12 /* CurrencyImageView.swift */; };
 		AF4C03E528EC1A1F0018283D /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6239228EB67D700EEBD12 /* SearchBarView.swift */; };
-		AF4C03E928EC1B240018283D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
 		AF4C03EB28EC1B4E0018283D /* CoinDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03EA28EC1B4E0018283D /* CoinDetailViewModel.swift */; };
 		AF4C03F028EC1B5F0018283D /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03EC28EC1B5F0018283D /* StatisticView.swift */; };
 		AF4C03F128EC1B5F0018283D /* CoinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03ED28EC1B5F0018283D /* CoinDetailView.swift */; };
 		AF4C03F228EC1B5F0018283D /* CoinDetailSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03EE28EC1B5F0018283D /* CoinDetailSection.swift */; };
 		AF4C03F328EC1B5F0018283D /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C03EF28EC1B5F0018283D /* ChartView.swift */; };
+		AF64DCFF28EE12AE003D5B42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
+		AF64DD0028EE12B0003D5B42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
+		AF64DD0128EE12B1003D5B42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
+		AF64DD0228EE12B5003D5B42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
 		AF66469528EDECD300DD8C08 /* CryptoTrackSwiftUI_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF66469428EDECD300DD8C08 /* CryptoTrackSwiftUI_watchOSApp.swift */; };
 		AF66469928EDECD400DD8C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF66469828EDECD400DD8C08 /* Assets.xcassets */; };
 		AF66469C28EDECD400DD8C08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF66469B28EDECD400DD8C08 /* Preview Assets.xcassets */; };
@@ -129,7 +132,6 @@
 		AFA8A68128EC84620087455A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A68028EC84620087455A /* HomeView.swift */; };
 		AFA8A68328EC854A0087455A /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A68228EC854A0087455A /* LaunchScreenView.swift */; };
 		AFA8A68528EC85570087455A /* LaunchScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A68428EC85570087455A /* LaunchScreenViewModel.swift */; };
-		AFA8A68628EC86D90087455A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
 		AFA8A68D28ECA4170087455A /* CryptoCurrencyCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A68728ECA4170087455A /* CryptoCurrencyCellView.swift */; };
 		AFA8A68E28ECA4170087455A /* CryptoCurrencyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A68828ECA4170087455A /* CryptoCurrencyListView.swift */; };
 		AFA8A68F28ECA4170087455A /* CurrenciesTableTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A68928ECA4170087455A /* CurrenciesTableTitleView.swift */; };
@@ -214,7 +216,6 @@
 		AFC6236328EB5EB100EEBD12 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6236028EB5EB100EEBD12 /* PortfolioDataService.swift */; };
 		AFC6236428EB5EB100EEBD12 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6236028EB5EB100EEBD12 /* PortfolioDataService.swift */; };
 		AFC6236728EB60E100EEBD12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
-		AFC6236828EB60E100EEBD12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
 		AFC6236F28EB622200EEBD12 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6236D28EB622200EEBD12 /* View.swift */; };
 		AFC6237028EB622200EEBD12 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6236E28EB622200EEBD12 /* UIApplication.swift */; };
 		AFC6237428EB62A800EEBD12 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6236D28EB622200EEBD12 /* View.swift */; };
@@ -238,7 +239,6 @@
 		AFC623A828EB686B00EEBD12 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC623A728EB686B00EEBD12 /* SearchBarView.swift */; };
 		AFC623AB28EB687B00EEBD12 /* CurrencyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC623A928EB687B00EEBD12 /* CurrencyImageView.swift */; };
 		AFC623AC28EB687B00EEBD12 /* CurrencyImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC623AA28EB687B00EEBD12 /* CurrencyImageViewModel.swift */; };
-		AFDE944328ED951500DC8938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC6236628EB60E100EEBD12 /* Preview Assets.xcassets */; };
 		AFDE944628ED953B00DC8938 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234728EB5DE800EEBD12 /* Color.swift */; };
 		AFDE944D28EDCC5600DC8938 /* ActivityAttributesDynamicIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE944C28EDCC5600DC8938 /* ActivityAttributesDynamicIsland.swift */; };
 		AFDE944E28EDCC7C00DC8938 /* ActivityAttributesDynamicIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE944C28EDCC5600DC8938 /* ActivityAttributesDynamicIsland.swift */; };
@@ -337,6 +337,7 @@
 		AF4C03ED28EC1B5F0018283D /* CoinDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailView.swift; sourceTree = "<group>"; };
 		AF4C03EE28EC1B5F0018283D /* CoinDetailSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailSection.swift; sourceTree = "<group>"; };
 		AF4C03EF28EC1B5F0018283D /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		AF64DCFE28EE0296003D5B42 /* CryptoTrackSwiftUI-watchOS-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CryptoTrackSwiftUI-watchOS-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		AF66469228EDECD300DD8C08 /* CryptoTrackSwiftUI-watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoTrackSwiftUI-watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF66469428EDECD300DD8C08 /* CryptoTrackSwiftUI_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_watchOSApp.swift; sourceTree = "<group>"; };
 		AF66469828EDECD400DD8C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -853,6 +854,7 @@
 		AF66469328EDECD300DD8C08 /* CryptoTrackSwiftUI-watchOS Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				AF64DCFE28EE0296003D5B42 /* CryptoTrackSwiftUI-watchOS-Watch-App-Info.plist */,
 				AF6646A128EDECE800DD8C08 /* App */,
 				AF6646A028EDECE300DD8C08 /* Core */,
 				AF66469828EDECD400DD8C08 /* Assets.xcassets */,
@@ -1535,7 +1537,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4C03AF28EC17D70018283D /* Preview Assets.xcassets in Resources */,
-				AF4C03E928EC1B240018283D /* Preview Assets.xcassets in Resources */,
+				AF64DD0028EE12B0003D5B42 /* Preview Assets.xcassets in Resources */,
 				AF4C03AC28EC17D70018283D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1554,7 +1556,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFA8A66E28EC82470087455A /* Preview Assets.xcassets in Resources */,
-				AFA8A68628EC86D90087455A /* Preview Assets.xcassets in Resources */,
+				AF64DD0128EE12B1003D5B42 /* Preview Assets.xcassets in Resources */,
 				AFA8A66B28EC82470087455A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1563,7 +1565,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDE944328ED951500DC8938 /* Preview Assets.xcassets in Resources */,
+				AF64DD0228EE12B5003D5B42 /* Preview Assets.xcassets in Resources */,
 				AFA8A6F128ED6A180087455A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1583,7 +1585,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFC6232728EB5B9800EEBD12 /* Preview Assets.xcassets in Resources */,
-				AFC6236828EB60E100EEBD12 /* Preview Assets.xcassets in Resources */,
+				AF64DCFF28EE12AE003D5B42 /* Preview Assets.xcassets in Resources */,
 				AFC6232428EB5B9800EEBD12 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2022,7 +2024,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconWatchOS;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -2076,6 +2078,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CryptoTrackSwiftUI-watchOS-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "CryptoTrackSwiftUI-watchOS";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
@@ -2104,7 +2107,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconWatchOS;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -2152,6 +2155,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CryptoTrackSwiftUI-watchOS-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "CryptoTrackSwiftUI-watchOS";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
@@ -2182,6 +2186,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -2263,6 +2268,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -2505,8 +2511,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconIOS;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -2590,8 +2597,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconIOS;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
