@@ -79,7 +79,6 @@
 		AF4C03D528EC19C60018283D /* LayzNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235728EB5E6300EEBD12 /* LayzNavigationView.swift */; };
 		AF4C03D628EC19C60018283D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235828EB5E6300EEBD12 /* NetworkManager.swift */; };
 		AF4C03D728EC19C90018283D /* CustomLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235628EB5E6300EEBD12 /* CustomLoadingIndicator.swift */; };
-		AF4C03D828EC19CB0018283D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6237928EB63A400EEBD12 /* LocalFileManager.swift */; };
 		AF4C03D928EC19ED0018283D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234A28EB5DE800EEBD12 /* Date.swift */; };
 		AF4C03DA28EC19ED0018283D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234B28EB5DE800EEBD12 /* Double.swift */; };
 		AF4C03DB28EC19ED0018283D /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234828EB5DE800EEBD12 /* PreviewProvider.swift */; };
@@ -118,11 +117,15 @@
 		AF6646BA28EDF40A00DD8C08 /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
 		AF6646BB28EDF40E00DD8C08 /* LayzNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235728EB5E6300EEBD12 /* LayzNavigationView.swift */; };
 		AF6646BC28EDF41200DD8C08 /* CustomLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235628EB5E6300EEBD12 /* CustomLoadingIndicator.swift */; };
-		AF6646BD28EDF41500DD8C08 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6237928EB63A400EEBD12 /* LocalFileManager.swift */; };
 		AF6646BE28EDF48100DD8C08 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC623A728EB686B00EEBD12 /* SearchBarView.swift */; };
 		AF6646BF28EDF51000DD8C08 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234728EB5DE800EEBD12 /* Color.swift */; };
 		AF6646C028EDF77C00DD8C08 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234B28EB5DE800EEBD12 /* Double.swift */; };
 		AF6646C728EDFA5A00DD8C08 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234828EB5DE800EEBD12 /* PreviewProvider.swift */; };
+		AFA49CEA293F1897005C247D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA49CE9293F1897005C247D /* LocalFileManager.swift */; };
+		AFA49CEB293F1897005C247D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA49CE9293F1897005C247D /* LocalFileManager.swift */; };
+		AFA49CEC293F1897005C247D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA49CE9293F1897005C247D /* LocalFileManager.swift */; };
+		AFA49CED293F1897005C247D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA49CE9293F1897005C247D /* LocalFileManager.swift */; };
+		AFA49CEE293F1897005C247D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA49CE9293F1897005C247D /* LocalFileManager.swift */; };
 		AFA8A65D28EC5B450087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
 		AFA8A65E28EC5B460087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
 		AFA8A65F28EC5B460087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
@@ -154,7 +157,6 @@
 		AFA8A6A628ECA5520087455A /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFC6233328EB5CD100EEBD12 /* PortfolioContainer.xcdatamodeld */; };
 		AFA8A6A728ECA55C0087455A /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6232E28EB5CD000EEBD12 /* StatisticModel.swift */; };
 		AFA8A6A828ECA56D0087455A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235828EB5E6300EEBD12 /* NetworkManager.swift */; };
-		AFA8A6A928ECA56D0087455A /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6237928EB63A400EEBD12 /* LocalFileManager.swift */; };
 		AFA8A6AA28ECA56D0087455A /* CustomLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235628EB5E6300EEBD12 /* CustomLoadingIndicator.swift */; };
 		AFA8A6AB28ECA56D0087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
 		AFA8A6AC28ECA56D0087455A /* LayzNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6235728EB5E6300EEBD12 /* LayzNavigationView.swift */; };
@@ -220,9 +222,7 @@
 		AFC6237028EB622200EEBD12 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6236E28EB622200EEBD12 /* UIApplication.swift */; };
 		AFC6237428EB62A800EEBD12 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6236D28EB622200EEBD12 /* View.swift */; };
 		AFC6237828EB636200EEBD12 /* ImageDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6237728EB636200EEBD12 /* ImageDownloadService.swift */; };
-		AFC6237A28EB63A400EEBD12 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6237928EB63A400EEBD12 /* LocalFileManager.swift */; };
 		AFC6237D28EB64BB00EEBD12 /* ImageDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6237728EB636200EEBD12 /* ImageDownloadService.swift */; };
-		AFC6237E28EB65A200EEBD12 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6237928EB63A400EEBD12 /* LocalFileManager.swift */; };
 		AFC6238628EB66D600EEBD12 /* PositiveButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6238228EB66D100EEBD12 /* PositiveButtonStyle.swift */; };
 		AFC6238728EB66D900EEBD12 /* SortButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6238328EB66D100EEBD12 /* SortButtonViewModifier.swift */; };
 		AFC6239528EB67D700EEBD12 /* CurrencyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6238D28EB67D700EEBD12 /* CurrencyImageView.swift */; };
@@ -346,6 +346,7 @@
 		AF6646AD28EDEFAE00DD8C08 /* LaunchScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewModel.swift; sourceTree = "<group>"; };
 		AF6646AF28EDEFBA00DD8C08 /* LaunchScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		AF6646B128EDF38400DD8C08 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AFA49CE9293F1897005C247D /* LocalFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCombineManager.swift; sourceTree = "<group>"; };
 		AFA8A66428EC82450087455A /* CryptoTrackSwiftUI-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoTrackSwiftUI-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA8A66628EC82460087455A /* CryptoTrackSwiftUI_tvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackSwiftUI_tvOSApp.swift; sourceTree = "<group>"; };
@@ -405,7 +406,6 @@
 		AFC6236D28EB622200EEBD12 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		AFC6236E28EB622200EEBD12 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		AFC6237728EB636200EEBD12 /* ImageDownloadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadService.swift; sourceTree = "<group>"; };
-		AFC6237928EB63A400EEBD12 /* LocalFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalFileManager.swift; path = ../../../../CryptoTrackMacSwiftUI/CryptoTrackMacSwiftUI/CryptoTrackMacSwiftUI/Utils/LocalFileManager.swift; sourceTree = "<group>"; };
 		AFC6238228EB66D100EEBD12 /* PositiveButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveButtonStyle.swift; sourceTree = "<group>"; };
 		AFC6238328EB66D100EEBD12 /* SortButtonViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortButtonViewModifier.swift; sourceTree = "<group>"; };
 		AFC6238D28EB67D700EEBD12 /* CurrencyImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyImageView.swift; sourceTree = "<group>"; };
@@ -1227,7 +1227,7 @@
 		AFC6234628EB5DBB00EEBD12 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				AFC6237928EB63A400EEBD12 /* LocalFileManager.swift */,
+				AFA49CE9293F1897005C247D /* LocalFileManager.swift */,
 				AFC6235628EB5E6300EEBD12 /* CustomLoadingIndicator.swift */,
 				AFC6235728EB5E6300EEBD12 /* LayzNavigationView.swift */,
 				AFC6235828EB5E6300EEBD12 /* NetworkManager.swift */,
@@ -1604,6 +1604,7 @@
 				AF4C03C528EC19150018283D /* CryptoCurrencyCellView.swift in Sources */,
 				AF4C03D628EC19C60018283D /* NetworkManager.swift in Sources */,
 				AF4C03E128EC1A1F0018283D /* SortButtonViewModifier.swift in Sources */,
+				AFA49CEC293F1897005C247D /* LocalFileManager.swift in Sources */,
 				AF4C03CF28EC196D0018283D /* CryptoCurrency.swift in Sources */,
 				AF4C03E028EC1A1F0018283D /* CurrencyImageViewModel.swift in Sources */,
 				AF4C03C728EC19150018283D /* CryptoCurrencyListView.swift in Sources */,
@@ -1633,7 +1634,6 @@
 				AF4C03CC28EC196D0018283D /* ChartData.swift in Sources */,
 				AF4C03A828EC17D60018283D /* CryptoTrackSwiftUI_macOS_MenuBarApp.swift in Sources */,
 				AF4C03D428EC19BD0018283D /* CryptoCurrenciesService.swift in Sources */,
-				AF4C03D828EC19CB0018283D /* LocalFileManager.swift in Sources */,
 				AF4C03F328EC1B5F0018283D /* ChartView.swift in Sources */,
 				AF4C03DB28EC19ED0018283D /* PreviewProvider.swift in Sources */,
 				AF4C03F128EC1B5F0018283D /* CoinDetailView.swift in Sources */,
@@ -1651,8 +1651,8 @@
 				AF6646C728EDFA5A00DD8C08 /* PreviewProvider.swift in Sources */,
 				AF6646B628EDF3D200DD8C08 /* PieChartModel.swift in Sources */,
 				AF6646B528EDF3CF00DD8C08 /* CoinDetailSectionModel.swift in Sources */,
+				AFA49CEE293F1897005C247D /* LocalFileManager.swift in Sources */,
 				AF6646B328EDF3C800DD8C08 /* CryptoCurrency.swift in Sources */,
-				AF6646BD28EDF41500DD8C08 /* LocalFileManager.swift in Sources */,
 				AF66469528EDECD300DD8C08 /* CryptoTrackSwiftUI_watchOSApp.swift in Sources */,
 				AF6646C028EDF77C00DD8C08 /* Double.swift in Sources */,
 				AF6646B828EDF3F600DD8C08 /* CryptoCurrenciesService.swift in Sources */,
@@ -1678,6 +1678,7 @@
 				AFA8A68D28ECA4170087455A /* CryptoCurrencyCellView.swift in Sources */,
 				AFA8A69C28ECA49D0087455A /* ChartView.swift in Sources */,
 				AFA8A69B28ECA49D0087455A /* CoinDetailSection.swift in Sources */,
+				AFA49CED293F1897005C247D /* LocalFileManager.swift in Sources */,
 				AFA8A6B728ECA5E20087455A /* CurrencyImageViewModel.swift in Sources */,
 				AFA8A6AD28ECA5730087455A /* Double.swift in Sources */,
 				AFA8A6AB28ECA56D0087455A /* NetworkCombineManager.swift in Sources */,
@@ -1700,7 +1701,6 @@
 				AFA8A6A528ECA54F0087455A /* CoinDetailSectionModel.swift in Sources */,
 				AFA8A68528EC85570087455A /* LaunchScreenViewModel.swift in Sources */,
 				AFA8A68F28ECA4170087455A /* CurrenciesTableTitleView.swift in Sources */,
-				AFA8A6A928ECA56D0087455A /* LocalFileManager.swift in Sources */,
 				AFA8A6B928ECA63A0087455A /* SortButtonViewModifier.swift in Sources */,
 				AFA8A69228ECA4170087455A /* CryptoCurrencyHorizontalListView.swift in Sources */,
 				AFA8A6A028ECA5410087455A /* CryptoCurrenciesService.swift in Sources */,
@@ -1737,7 +1737,6 @@
 				AFC6234028EB5CD100EEBD12 /* PortfolioContainer.xcdatamodeld in Sources */,
 				AFDE945028EDCCEE00DC8938 /* RootViewModel.swift in Sources */,
 				AFC623AC28EB687B00EEBD12 /* CurrencyImageViewModel.swift in Sources */,
-				AFC6237E28EB65A200EEBD12 /* LocalFileManager.swift in Sources */,
 				AFC6233E28EB5CD100EEBD12 /* SideMenuBar.swift in Sources */,
 				AF4C039C28EB78EB0018283D /* PortfolioTableTitleView.swift in Sources */,
 				AF4C039828EB78EB0018283D /* PortfolioSelectGridView.swift in Sources */,
@@ -1776,6 +1775,7 @@
 				AFC6235228EB5DE800EEBD12 /* Date.swift in Sources */,
 				AFC623A628EB685D00EEBD12 /* AddButton.swift in Sources */,
 				AF4C037F28EB78840018283D /* CryptoCurrencyHorizontalListView.swift in Sources */,
+				AFA49CEA293F1897005C247D /* LocalFileManager.swift in Sources */,
 				AF4C038828EB78B10018283D /* StatisticView.swift in Sources */,
 				AF4C037228EB78530018283D /* RootView.swift in Sources */,
 				AFC6236128EB5EB100EEBD12 /* CryptoCurrenciesService.swift in Sources */,
@@ -1814,7 +1814,6 @@
 				AF4C036828EB75DA0018283D /* PortfolioListView.swift in Sources */,
 				AFC6235528EB5DE800EEBD12 /* Double.swift in Sources */,
 				AF4C035A28EB75B60018283D /* StatisticView.swift in Sources */,
-				AFC6237A28EB63A400EEBD12 /* LocalFileManager.swift in Sources */,
 				AFC6234F28EB5DE800EEBD12 /* PreviewProvider.swift in Sources */,
 				AFC6233728EB5CD100EEBD12 /* StatisticModel.swift in Sources */,
 				AFC6236428EB5EB100EEBD12 /* PortfolioDataService.swift in Sources */,
@@ -1843,6 +1842,7 @@
 				AFC6239828EB67D700EEBD12 /* AddButton.swift in Sources */,
 				AFC6236228EB5EB100EEBD12 /* CryptoCurrenciesService.swift in Sources */,
 				AF4C034F28EB758F0018283D /* CryptoCurrencyHorizontalListView.swift in Sources */,
+				AFA49CEB293F1897005C247D /* LocalFileManager.swift in Sources */,
 				AFC6235C28EB5E6300EEBD12 /* LayzNavigationView.swift in Sources */,
 				AFC6239628EB67D700EEBD12 /* PositiveButtonStyle.swift in Sources */,
 				AFC6239C28EB67D700EEBD12 /* CloseButton.swift in Sources */,
