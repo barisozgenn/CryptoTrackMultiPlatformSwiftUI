@@ -12,7 +12,9 @@ class RootViewModel:  ObservableObject {
     
     private var activity: Activity<ActivityAttributesDynamicIsland>? = nil
     
-    func setActiviy() {
+    // For dynamic values check MarketViewModel -> DYNAMIC ISLAND section
+    
+   /* func setActiviy() {
         
         startActivity()
         
@@ -22,9 +24,11 @@ class RootViewModel:  ObservableObject {
         }
        
       
-    }
+    }*/
     
-    private func startActivity() {
+    /*
+     
+     private func startActivity() {
         let attributes = ActivityAttributesDynamicIsland(name: "Bitcoin")
         let contentState = ActivityAttributesDynamicIsland.ContentState(price: 20297.92)
         
@@ -48,5 +52,5 @@ class RootViewModel:  ObservableObject {
             await activity?.update(using: contentState)
         }
         
-    }
+    }*/
 }

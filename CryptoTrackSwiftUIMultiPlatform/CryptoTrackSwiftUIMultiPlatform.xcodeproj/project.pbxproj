@@ -126,6 +126,8 @@
 		AFA49CEC293F1897005C247D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA49CE9293F1897005C247D /* LocalFileManager.swift */; };
 		AFA49CED293F1897005C247D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA49CE9293F1897005C247D /* LocalFileManager.swift */; };
 		AFA49CEE293F1897005C247D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA49CE9293F1897005C247D /* LocalFileManager.swift */; };
+		AFA49CF02943406B005C247D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6234B28EB5DE800EEBD12 /* Double.swift */; };
+		AFA49CF1294345BD005C247D /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6233528EB5CD100EEBD12 /* CryptoCurrency.swift */; };
 		AFA8A65D28EC5B450087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
 		AFA8A65E28EC5B460087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
 		AFA8A65F28EC5B460087455A /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8A65C28EC5B450087455A /* NetworkCombineManager.swift */; };
@@ -1721,9 +1723,11 @@
 				AFDE944E28EDCC7C00DC8938 /* ActivityAttributesDynamicIsland.swift in Sources */,
 				AFA8A6EA28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetBundle.swift in Sources */,
 				AFA8A6F328ED6A180087455A /* CryptoTrackSwiftUI_iOS_Widget.intentdefinition in Sources */,
+				AFA49CF1294345BD005C247D /* CryptoCurrency.swift in Sources */,
 				AFA8A6EC28ED6A170087455A /* CryptoTrackSwiftUI_iOS_WidgetLiveActivity.swift in Sources */,
 				AFDE944628ED953B00DC8938 /* Color.swift in Sources */,
 				AFA8A6EE28ED6A170087455A /* CryptoTrackSwiftUI_iOS_Widget.swift in Sources */,
+				AFA49CF02943406B005C247D /* Double.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

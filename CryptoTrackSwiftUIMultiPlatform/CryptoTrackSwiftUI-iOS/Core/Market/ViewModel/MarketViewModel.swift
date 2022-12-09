@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import ActivityKit
 class MarketViewModel:  ObservableObject {
         
     @Published private(set) var cryptoCurrencies = [CryptoCurrency]()
@@ -30,6 +31,8 @@ class MarketViewModel:  ObservableObject {
     private let dataService = CryptoCurrenciesService()
     private var cancellables = Set<AnyCancellable>()
     
+    private var activity: Activity<ActivityAttributesDynamicIsland>? = nil
+    
     init(){
         
         fetchData()
@@ -48,7 +51,7 @@ class MarketViewModel:  ObservableObject {
                  self?.sortTopMovingCryptoCurrencies()
 
                  self?.isLoading = false
-
+                 self?.setActiviy()
              }
              .store(in: &cancellables)
          
@@ -202,6 +205,51 @@ class MarketViewModel:  ObservableObject {
         case priceHigh
         case percentageLow
         case percentageHigh
+    }
+    
+    // MARK: - DYNAMIC ISLAND
+    
+    private func setActiviy() {
+        
+        startActivity()
+        
+        Task{
+           try await Task.sleep(nanoseconds: UInt64(60 * Double(NSEC_PER_SEC)))
+            stopActivity()
+        }
+       
+      
+    }
+    
+    private func startActivity() {
+        guard let btc = cryptoCurrencies.first(where: {$0.symbol == "btc"}) else {return}
+        let attributes = ActivityAttributesDynamicIsland(name: btc.name.capitalized, model: btc)
+        let contentState = ActivityAttributesDynamicIsland.ContentState(price: btc.currentPrice, percentage: btc.priceChangePercentage24H ?? 0.0)
+        
+      activity = try? Activity<ActivityAttributesDynamicIsland>.request(attributes: attributes, contentState: contentState, pushType: nil)
+        
+    }
+    
+    private func stopActivity() {
+        guard let btc = cryptoCurrencies.first(where: {$0.symbol == "btc"}) else {return}
+
+        let contentState = ActivityAttributesDynamicIsland.ContentState(price: btc.currentPrice, percentage: btc.priceChangePercentage24H ?? 0.0)
+        
+        Task{
+            await activity?.end(using: contentState, dismissalPolicy: .immediate)
+        }
+        
+    }
+    
+    private func updateActivity() {
+        guard let btc = cryptoCurrencies.first(where: {$0.symbol == "btc"}) else {return}
+
+        let contentState = ActivityAttributesDynamicIsland.ContentState(price: btc.currentPrice, percentage: btc.priceChangePercentage24H ?? 0.0)
+        
+        Task{
+            await activity?.update(using: contentState)
+        }
+        
     }
 }
 

@@ -14,24 +14,26 @@ import SwiftUI
 struct CryptoTrackSwiftUI_iOS_WidgetLiveActivity: Widget {
     
     let imageName : String = "bitcoinsign.circle.fill"
-    let price : String = "$20.297,92"
-    let percentage : String = "+%7.29"
     
     var body: some WidgetConfiguration {
+        
         ActivityConfiguration(for: ActivityAttributesDynamicIsland.self) { context in
             // Lock screen/banner UI goes here
             // height maximum : 220px
             
             // btc
-            contentView
+            CustomContentView(price: context.attributes.model.currentPrice.toUSDCurrencyFormatted(),
+                              percentage: (context.attributes.model.priceChangePercentage24H ?? 0.0).toPercentString(),
+                              symbol: context.attributes.model.symbol,
+                              name: context.attributes.model.name)
             .activityBackgroundTint(Color.purple)
             .activitySystemActionForegroundColor(Color.blue)
-            
-        } dynamicIsland: { context in
+        }
+    dynamicIsland: { context in
             DynamicIsland {
                 // Expanded UI goes here.  Compose the expanded UI through
                 // various regions, like leading/trailing/center/bottom
-              
+            
                 
                 DynamicIslandExpandedRegion(.leading) {
                     
@@ -39,7 +41,11 @@ struct CryptoTrackSwiftUI_iOS_WidgetLiveActivity: Widget {
                 DynamicIslandExpandedRegion(.trailing) {
                 }
                 DynamicIslandExpandedRegion(.bottom) {
-                    contentView
+                    CustomContentView(price: context.attributes.model.currentPrice.toUSDCurrencyFormatted(),
+                                      percentage: (context.attributes.model.priceChangePercentage24H ?? 0.0).toPercentString(),
+                                      symbol: context.attributes.model.symbol,
+                                      name: context.attributes.model.name)
+                       
                     // more content
                 }
             } compactLeading: {
@@ -48,10 +54,10 @@ struct CryptoTrackSwiftUI_iOS_WidgetLiveActivity: Widget {
                     .scaledToFit()
                     .foregroundColor(.orange)
             } compactTrailing: {
-                Text(percentage)
+                Text((context.attributes.model.priceChangePercentage24H ?? 0.0).toPercentString())
                     .font(.system(size: 10))
                     .fontWeight(.bold)
-                    .foregroundColor(.green)
+                    .foregroundColor((context.attributes.model.priceChangePercentage24H ?? 0.0) > 0 ? .green : .red)
             } minimal: {
                 Image(systemName: imageName)
                     .resizable()
@@ -59,47 +65,54 @@ struct CryptoTrackSwiftUI_iOS_WidgetLiveActivity: Widget {
             }
             .widgetURL(URL(string: "https://www.github.com/barisozgenn"))
             .keylineTint(Color.green)
+            
         }
     }
     
-    
-    private var contentView : some View {
-        ZStack{
-            VStack{
-                HStack{
-                    VStack(alignment: .leading){
-                        Text("BTC")
-                            .font(.title3)
-                            .fontWeight(.bold)
-                            .foregroundColor(Color(.white))
+    struct CustomContentView : View {
+        let imageName : String = "bitcoinsign.circle.fill"
+        @State var price : String = ""
+        @State var percentage : String = ""
+        @State var symbol: String = ""
+        @State var name: String = ""
+        var body: some View {
+            ZStack{
+                VStack{
+                    HStack{
+                        VStack(alignment: .leading){
+                            Text(symbol.uppercased())
+                                .font(.title3)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color(.white))
+                            
+                            Text(name.capitalized)
+                                .font(.caption)
+                                .foregroundColor(Color(.white))
+                        }
                         
-                        Text("Bitcoin")
-                            .font(.caption)
-                            .foregroundColor(Color(.white))
+                        
+                        Spacer()
+                        Text(price)
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.white)
+                        // 24h Change
+                        VStack{
+                            Text(percentage)
+                                .font(.system(size: 11))
+                                .fontWeight(.black)
+                                .foregroundColor(.green)
+                        }
+                        .frame(width: 55)
+                        .padding(.vertical, 11)
+                        .padding(.horizontal,3)
+                        .background(Color(.systemGray6))
+                        .cornerRadius(4)
                     }
                     
-                    
-                    Spacer()
-                    Text(price)
-                        .font(.title2)
-                        .fontWeight(.semibold)
-                        .foregroundColor(.white)
-                    // 24h Change
-                    VStack{
-                        Text(percentage)
-                            .font(.system(size: 11))
-                            .fontWeight(.black)
-                            .foregroundColor(.green)
-                    }
-                    .frame(width: 55)
-                    .padding(.vertical, 11)
-                    .padding(.horizontal,3)
-                    .background(Color(.systemGray6))
-                    .cornerRadius(4)
                 }
-                
+                .padding(.horizontal)
             }
-            .padding(.horizontal)
         }
     }
 }
